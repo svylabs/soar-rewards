@@ -1,5 +1,5 @@
 # SOAR Staking & Rewards
-SOAR; Stake Once; Amplify Rewards is a staking protocol, where users can stake once in mainnet(Ethereum) and are able to permissionlessly claim staking rewards in many chains / L2s, where trustless bridge between that chain and ethereum is available.
+**SOAR: Stake Once; Amplify Rewards** is a staking protocol, where users can stake once in mainnet(Ethereum) and are able to permissionlessly claim staking rewards in many chains / L2s, where trustless bridge between that chain and ethereum is available.
 
 # Usecase
 Imagine a protocol that is live on Ethereum mainnet, and staking the protocol tokens in mainnet earns fees from the protocol. Now, imagine, that same protocol has to be deployed on other chains like Arbitrum / Starknet / Base / Optimism / etc. The question arises, how would you go about rewarding users? There are a couple of ways to solve this:
