@@ -19,14 +19,15 @@ The main pre-requisite for achieving this in a trustless manner is the availabil
 
 ## Staking Contract (Mainnet)
 
-The staking contract in addition to accounting for total stakes per user, also maintains a chain of stake events, and stores the hash of tip of the stake event on chain.
+The staking contract in addition to accounting for total stakes per user, also computes a chain of stake events, and stores the hash of tip of the stake event on chain. The tip references the previous event hash.
 
 ```
   S1 -> S2 -> S3 -> US1 -> S4 -> US2 -> US3 -> ... Tip
 ```
+
 Where the current event hash in addition to the current stake, timestamp, etc.. also references the previous stake event. The hash of the current stake event is obtained by concatenating the following 
 
-`
+```
         address user,
         bool isStake,
         uint256 amount,
@@ -34,7 +35,7 @@ Where the current event hash in addition to the current stake, timestamp, etc.. 
         uint256 totalUserStake,
         uint256 timestamp,
         bytes32 previousHash,
-`
+```
 
 ## Relay Contract(Mainnet)
 
