@@ -1,7 +1,99 @@
-# SP1 Project Template
+# SOAR Staking & Rewards
+SOAR; Stake Once; Amplify Rewards is a staking protocol, where users can stake once in mainnet(Ethereum) and are able to permissionlessly claim staking rewards in many chains / L2s, where trustless bridges are available.
 
-This is a template for creating an end-to-end [SP1](https://github.com/succinctlabs/sp1) project
-that can generate a proof of any RISC-V program.
+# Usecase
+Imagine a protocol that is live on Ethereum mainnet, and staking the protocol tokens in mainnet earns fees from the protocol. Now, imagine that protocol has to be deployed on other chains like Arbitrum / Starknet / Base / Optimism / etc. There are a couple of ways to solve this:
+1. One way to do this would be to issue new tokens on those chains. This obviously have fragmentation of fee revenue across different protocols.
+2. Issue LSDs for the staked token on mainnet, that can be used across different chains. This again makes it complex when introducing the protocol on new chains.
+3. Revenue from the other deployments are sent to mainnet periodically. This is not straightforward as well, as the revenue can be in a different token that is not known to the mainnet contracts.
+
+# Solution
+SOAR(Stake Once; Amplify Rewards): A unified staking protocol, where users stake in a staking pool once on mainnet, and are able to permissionlessly claim rewards from other chains by presenting a proof that at each reward event on another chain, a user had a particular amount of stake, and their share of revenue at the reward event was a particular value. Finally aggregating the total reward and a proof that this is the aggregated reward claim.
+
+# Pre-requisites
+The main pre-requisite for achieving this in a trustless manner is the availability of **a trustless messaging bridge between L1(mainnet) to L2**, like the one available on Starknet / Arbitrum(Inbox) so messages can be sent from L1 contracts to L2 contracts.
+
+# Mechanism
+
+## Staking Contract (Mainnet)
+
+The staking contract in addition to accounting for total stakes per user, also maintains a chain of stake events, and stores the hash of tip of the stake event on chain.
+
+```
+  S1 -> S2 -> S3 -> US1 -> S4 -> US2 -> US3 -> ... Tip
+```
+Where the current event hash in addition to the current stake, timestamp, etc.. also references the previous stake event. The hash of the current stake event is obtained by concatenating the following 
+
+`
+        address user,
+        bool isStake,
+        uint256 amount,
+        uint256 totalStaked,
+        uint256 totalUserStake,
+        uint256 timestamp,
+        bytes32 previousHash,
+`
+
+## Relay Contract(Mainnet)
+
+Relay Contracts are deployed once per new chain / L2. The main function of relay contract is to trustlessly pass a message to the L2 Reward Contract the latest stake snapshot of the user and the global stake snapshot. So it mainly has only one function
+
+```
+    struct Snapshot {
+        uint timestamp,
+        bytes32 userStakeSnapshot,
+        bytes32 globalStakeSnapshot
+    }
+    function relaySnapshot() {
+         Snapshot snapshot = constructSnapshot(); // Construct this snapshot by making a function call to the Staking contract
+         relay(snapshot)
+    }
+```
+
+## Reward Contract (Mainnet or L2 or another chain with a bridge)
+
+Similar to L1 staking contract, the reward contract on L2 also maintains a chain of reward events, and stores the hash of the tip of the reward event in the contract
+
+```
+   R1 -> R2 -> R3 -> R4 -> .... tip
+```
+
+The relay function is called by the trustless bridging mechanism.
+
+```
+    struct HashInterval {
+       bytes32 from;
+       bytes32 to;
+    }
+    struct Claim {
+       HashInterval stakeEventsInterval; // Holds the interval from....to for global stake events
+       HashInterval rewardEventsInterval; // Holds the reward event hashes from....to for reward events
+       HashInterval userStakeInterval; // Holds users specific hashes from....to for stake events specific to user.
+       bool claimed;
+       bool stakeSnapshotTime;
+       bool rewardSnapshotTime;
+    }
+    mapping(address => Claim) claims; // Contains all claims for various users.
+    function relay(newSnapshot) {
+         // When receiving the message from L1, the contract prepares a claim object with the following attributes:
+         updateClaim(newSnapshot);
+          
+    }
+```
+
+The rewards can be claimed by calling
+
+```
+     function claim(proof, publicInputs) {
+         // Verify the zero knowledge proofs, publicInputs
+         sendRewards(msg.sender)
+         claims[msg.sender].claimed = true;
+      }
+```
+
+Once the rewards have been claimed for a particular claim, the cycle can be repeated as many times as one wants.
+
+# Testing
 
 ## Requirements
 
@@ -28,7 +120,7 @@ To run the program without generating a proof:
 
 ```sh
 cd script
-cargo run --release -- --execute
+cargo run --release -- --execute  --input-file ../data/input.json
 ```
 
 This will execute the program and display the output.
@@ -39,7 +131,7 @@ To generate a core proof for your program:
 
 ```sh
 cd script
-cargo run --release -- --prove
+cargo run --release -- --prove --input-file ../data/input.json
 ```
 
 ### Generate an EVM-Compatible Proof
