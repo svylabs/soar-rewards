@@ -114,10 +114,10 @@ async function newDataset() {
 
     const balances: any = {};
 
-    let fromStakeChainEvent;
-    let toStakeChainEvent;
-    let fromRewardChainEvent;
-    let toRewardChainEvent;
+    let fromStakeChainEvent: { timestamp: any; currentStakeChain: any; user?: string; isStake?: boolean; amount?: bigint; totalStaked?: bigint; totalUserStake?: any; previousStakeChain?: string; } | undefined;
+    let toStakeChainEvent: { timestamp: any; currentStakeChain: any; user?: string; isStake?: boolean; amount?: bigint; totalStaked: bigint; totalUserStake?: any; previousStakeChain?: string; } | undefined;
+    let fromRewardChainEvent: { timestamp: any; currentRewardChain: any; amount?: bigint; totalRewards?: bigint; previousRewardChain?: string; } | undefined;
+    let toRewardChainEvent: { timestamp: any; currentRewardChain: any; amount?: bigint; totalRewards?: bigint; previousRewardChain?: string; } | undefined;
     let fromUserStakeChainEvent;
     let toUserStakeChainEvent;
     let user;
@@ -316,7 +316,19 @@ async function newDataset() {
 
                 // Ignore the from reward chain event, and always include the toRewardChainEvent
                 if (fromRewardChainEvent !== undefined && toRewardChainEvent === undefined && user !== undefined) {
-                    expectedRewards += (rewardAmount * balances[user].staked) / totalStaked;
+                    let userStake = BigInt(0);
+                    let totalSystemStake = BigInt(0);
+                    if (toUserStakeChainEvent != undefined) {
+                        userStake = toUserStakeChainEvent.totalUserStake;
+                    } else {
+                        userStake = balances[user].staked;
+                    }
+                    if (toStakeChainEvent != undefined) {
+                        totalSystemStake = toStakeChainEvent.totalStaked;
+                    } else {
+                        totalSystemStake = totalStaked;
+                    }
+                    expectedRewards += (rewardAmount * userStake) / totalSystemStake;
                     userRewardEvents.push({
                         rewardEvent: rewards[rewards.length - 1],
                         userStake: balances[user].staked,
@@ -326,7 +338,7 @@ async function newDataset() {
                 if (Math.random() < 0.1 && fromRewardChainEvent === undefined && timestampLastStakeChainEvent === BigInt(0)) {
                     fromRewardChainEvent = rewards[rewards.length - 1];
                 }
-                if (Math.random() < 0.1 && toRewardChainEvent === undefined && timestampLastStakeChainEvent != BigInt(0) && timestamp > timestampLastStakeChainEvent) {
+                if (toRewardChainEvent === undefined && timestampLastStakeChainEvent != BigInt(0) && timestamp > timestampLastStakeChainEvent) {
                     toRewardChainEvent = rewards[rewards.length - 1];
                 }
             
@@ -372,10 +384,23 @@ async function newDataset() {
     if (toUserStakeChainEvent !== undefined) {
         claim.toUserStakeChainEvent = toUserStakeChainEvent;
     }
+
     const json = {
         user: user,
-        stake_events: stakes,
-        reward_events: rewards,
+        stake_events: stakes.filter((stake) => {
+            const beginTime = (fromStakeChainEvent !== undefined) ? fromStakeChainEvent.timestamp : 0;
+            const endTime = (toStakeChainEvent !== undefined) ? toStakeChainEvent.timestamp : 0;  
+            if (stake.timestamp > beginTime && stake.timestamp <= endTime) {
+                return true;
+            }
+        }),
+        reward_events: rewards.filter((reward) => {
+            const beginTime = (fromRewardChainEvent !== undefined) ? fromRewardChainEvent.timestamp : 0;
+            const endTime = (toRewardChainEvent !== undefined) ? toRewardChainEvent.timestamp : 0;  
+            if (reward.timestamp > beginTime && reward.timestamp <= endTime) {
+                return true;
+            }
+        }),
         claim: claim
     }
     //console.log("=====================================");
