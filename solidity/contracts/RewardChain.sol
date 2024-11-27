@@ -20,7 +20,6 @@ contract RewardChain {
         HashInterval userStakeInterval;
         uint256 rewardSnapshotTime;
         uint256 stakeSnapshotTime;
-        uint256 rewardBeginTime;
         bool claimed;
     }
 
@@ -70,7 +69,6 @@ contract RewardChain {
             });
             claim.rewardSnapshotTime = block.timestamp;
             claim.stakeSnapshotTime = stakeSnapshotTime;
-            claim.rewardBeginTime = rewardBeginTime;
         } else {
             require(
                 claim.claimed,
@@ -122,10 +120,8 @@ contract RewardChain {
      * Beginning -> PreviousRewardChainSnapshot -> CurrentRewardChainSnapshot
      */
     function claimRewards(
-        uint256 aggregateRewards,
-        uint256 totalUserStake,
-        uint256 totalStake,
-        bytes calldata proof
+        bytes calldata proof,
+        bytes calldata publicInputs
     ) public {
         // Should verify proof and return the rewards
         StakeRewardClaim storage claim = rewards[msg.sender];
