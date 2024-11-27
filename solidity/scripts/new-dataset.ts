@@ -128,14 +128,19 @@ async function newDataset() {
     for (let i = 0;i<usrs.length;i++) {
         const tx = await stakingToken.connect(owner).transfer(usrs[i].address, ethers.parseEther("1000"));
         await tx.wait();
-        if (Math.random() < 0.1  && user === undefined) {
-            user = usrs[i].address;
-        }
         balances[usrs[i].address] = {
             balance: ethers.parseEther("1000"),
             staked: ethers.parseEther("0")
         };
     }
+
+    do {
+        for (let i = 0;i<usrs.length;i++) {
+            if (Math.random() < 0.1  && user === undefined) {
+                user = usrs[i].address;
+            }    
+        }
+    } while (user === undefined);
 
 
   

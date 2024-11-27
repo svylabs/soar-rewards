@@ -1,8 +1,11 @@
 # SOAR Staking & Rewards
+
 **SOAR: Stake Once; Amplify Rewards** is a staking protocol, where users can stake once in mainnet(Ethereum) and are able to permissionlessly claim staking rewards in many chains / L2s, where trustless bridge between that chain and ethereum is available.
 
 # Usecase
+
 Imagine a protocol that is live on Ethereum mainnet, and staking the protocol tokens in mainnet earns fees from the protocol. Now, imagine, that same protocol has to be deployed on other chains like Arbitrum / Starknet / Base / Optimism / etc. The question arises, how would you go about rewarding users? There are a couple of ways to solve this:
+
 1. One way is to issue new tokens on those chains. This obviously have fragmentation of fee revenue across different protocols.
 2. Issue LSDs for the staked token on mainnet that can be used across different chains. This again makes it complex when introducing the protocol on new chains resulting in fragmentation again.
 3. Revenue from the other deployments are sent to mainnet periodically. This is not straightforward as well, as the revenue can be in a different token that is not known to the mainnet contracts.
@@ -10,9 +13,11 @@ Imagine a protocol that is live on Ethereum mainnet, and staking the protocol to
 Even within a chain, imagine a team developing multiple protocols, and want to divert revenue from all those protocols to the token holders, without implementing a new staking contract each time a new protocol is introduced.
 
 # Solution: SOAR
+
 **SOAR(Stake Once; Amplify Rewards)**: A unified staking protocol, where users stake in a staking pool once on mainnet, and are able to permissionlessly claim rewards from other deployments of the protocol on another chain by calculating offline, the aggregated total rewards based on their stake at each reward event, and finally presenting a proof that the aggregated total rewards is correct.
 
 # Pre-requisites
+
 The main pre-requisite for achieving this in a trustless manner is the availability of **a trustless messaging bridge between L1(mainnet) to L2**, like the one available on Starknet / Arbitrum(Inbox) so messages can be sent from L1 contracts to L2 contracts.
 
 # Mechanism
@@ -25,7 +30,7 @@ The staking contract in addition to accounting for total stakes per user, also c
   S1 -> S2 -> S3 -> US1 -> S4 -> US2 -> US3 -> ... Tip
 ```
 
-Where the current event hash in addition to the current stake, timestamp, etc.. also references the previous stake event. The hash of the current stake event is obtained by concatenating the following 
+Where the current event hash in addition to the current stake, timestamp, etc.. also references the previous stake event. The hash of the current stake event is obtained by concatenating the following
 
 ```
         address user,
@@ -83,7 +88,7 @@ The relay function is called by the trustless bridging mechanism.
     function relay(newSnapshot) {
          // When receiving the message from L1, the contract prepares a claim object with the following attributes:
          updateClaim(newSnapshot);
-          
+
     }
 ```
 
@@ -100,9 +105,10 @@ The rewards can be computed offline along with the proof, and claimed by calling
 Once the rewards have been claimed for a particular claim, the cycle can be repeated as many times as one wants.
 
 # Advantages
-1. Protocol tokens can be issued once on mainnet.
-2. Reducing the incentive to issue new tokens, backroom dealings and fragmenting rewards.
-3. Reducing the implementation effort to distribute rewards when launching the protocol in a new L2.
+
+1. Protocol tokens can be issued and staked once on mainnet.
+2. Reduces the incentive to issue new tokens, backroom dealings / fragmenting rewards.
+3. Reduces the implementation effort to distribute rewards when launching the protocol in a new L2 as the users can use a pull model to pull rewards permissionlessly.
 
 We are using SP1 prover for this prototype and the following helps with setting up the repo and testing the flow.
 
@@ -125,6 +131,16 @@ To build the program, run the following command:
 ```sh
 cd program
 cargo prove build
+```
+
+### Generate the data
+
+```sh
+cd solidity
+# Generates data.
+npx hardhat run scripts/new-dataset.ts
+# Copy the data to an appropriate location
+find data -type f  | grep -v "sample" | xargs -I{} cp {} ../data/.
 ```
 
 ### Execute the Program
