@@ -9,8 +9,8 @@ Imagine a protocol that is live on Ethereum mainnet, and staking the protocol to
 
 Even within a chain, imagine a team developing multiple protocols, and want to divert revenue from all those protocols to the token holders, without implementing a new staking contract each time a new protocol is introduced.
 
-# Solution
-SOAR(Stake Once; Amplify Rewards): A unified staking protocol, where users stake in a staking pool once on mainnet, and are able to permissionlessly claim rewards from other chains by presenting a proof that at each reward event on another chain, a user had a particular amount of stake, and their share of revenue at the reward event was a particular value. Finally aggregating the total reward and a proof that this is the aggregated reward claim.
+# Solution: SOAR
+**SOAR(Stake Once; Amplify Rewards)**: A unified staking protocol, where users stake in a staking pool once on mainnet, and are able to permissionlessly claim rewards from other deployments of the protocol on another chain by calculating offline, the aggregated total rewards based on their stake at each reward event, and finally presenting a proof that the aggregated total rewards is correct.
 
 # Pre-requisites
 The main pre-requisite for achieving this in a trustless manner is the availability of **a trustless messaging bridge between L1(mainnet) to L2**, like the one available on Starknet / Arbitrum(Inbox) so messages can be sent from L1 contracts to L2 contracts.
