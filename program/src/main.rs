@@ -10,7 +10,11 @@ sp1_zkvm::entrypoint!(main);
 
 use alloy_sol_types::SolType;
 //use fibonacci_lib::{fibonacci, PublicValuesStruct};
-use soar_lib::{reward, reward_calculator::RewardCalculator, types::PublicValuesStruct};
+use soar_lib::{
+    reward,
+    reward_calculator::RewardCalculator,
+    types::{Bytes32, PublicValuesStruct, Zero},
+};
 
 pub fn main() {
     // Read an input to the program.
@@ -23,6 +27,12 @@ pub fn main() {
     // Compute the n'th fibonacci number using a function from the workspace lib crate.
     let total_rewards = reward_calculator.calculate_reward();
 
+    let mut from_user_stake_event = reward_calculator.claim.from_user_stake_event;
+    let mut from_user_stake_event_hash = Bytes32::zero();
+    if from_user_stake_event.is_some() {
+        from_user_stake_event_hash = from_user_stake_event.unwrap().hash();
+    }
+
     // Encode the output of the program.
     let pub_vals = PublicValuesStruct {
         user: reward_calculator.user.into(),
@@ -31,8 +41,9 @@ pub fn main() {
         to_reward_event_hash: reward_calculator.claim.to_reward_event.hash().into(),
         from_stake_event_hash: reward_calculator.claim.from_stake_event.hash().into(),
         to_stake_event_hash: reward_calculator.claim.to_stake_event.hash().into(),
-        from_user_stake_event_hash: reward_calculator.claim.from_user_stake_event.hash().into(),
+        from_user_stake_event_hash: from_user_stake_event_hash.into(),
         to_user_stake_event_hash: reward_calculator.claim.to_user_stake_event.hash().into(),
+        updated_to_reward_event_hash: reward_calculator.claim.to_reward_event.hash().into(),
     };
 
     // Encode the public values of the program.

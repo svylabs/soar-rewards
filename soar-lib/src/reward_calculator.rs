@@ -7,17 +7,25 @@ use crate::types::{Address, Bytes32, Zero, U256};
 #[derive(Clone, Debug, Deserialize)]
 pub struct RewardClaimParameters {
     pub user: Address,
+    #[serde(rename = "fromRewardChainEvent")]
     pub from_reward_event: RewardChainExtendedEvent,
+    #[serde(rename = "toRewardChainEvent")]
     pub to_reward_event: RewardChainExtendedEvent,
+    #[serde(rename = "fromStakeChainEvent")]
     pub from_stake_event: StakeChainExtendedEvent,
+    #[serde(rename = "toStakeChainEvent")]
     pub to_stake_event: StakeChainExtendedEvent,
-    pub from_user_stake_event: StakeChainExtendedEvent,
+    #[serde(rename = "fromUserStakeChainEvent")]
+    pub from_user_stake_event: Option<StakeChainExtendedEvent>,
+    #[serde(rename = "toUserStakeChainEvent")]
     pub to_user_stake_event: StakeChainExtendedEvent,
 }
 
 #[derive(Clone, Debug, Deserialize)]
 pub struct RewardCalculator {
     pub user: Address,
+    //pub stake_snapshot_timestamp: U256,
+    //pub reward_snapshot_timestamp: U256,
     pub stake_events: Vec<StakeChainExtendedEvent>,
     pub reward_events: Vec<RewardChainExtendedEvent>,
     pub claim: RewardClaimParameters,
@@ -33,8 +41,13 @@ impl RewardCalculator {
     pub fn calculate_reward(&mut self) -> U256 {
         // Calculate the total reward for the user based on reward events and stake events.
         let mut total_user_stake = U256::zero();
-        if self.claim.from_user_stake_event.hash() != Bytes32::zero() {
-            total_user_stake = self.claim.from_user_stake_event.total_user_stake;
+        if self.claim.from_user_stake_event.is_some() {
+            total_user_stake = self
+                .claim
+                .from_user_stake_event
+                .as_ref()
+                .unwrap()
+                .total_user_stake;
         }
         let mut total_stake = U256::zero();
         let mut current_timestamp = U256::zero();

@@ -42,7 +42,7 @@ function serializeToRust(key: any, value: any) {
         return hexToByteArray(value.substring(2), 20);
     }
     if (key === "isStake") {
-        return value ? 1 : 0;
+        return value ? true : false;
     }
     return value;
 }

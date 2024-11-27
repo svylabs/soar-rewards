@@ -17,12 +17,17 @@ pub struct StakeChainExtendedEventJSON {
 #[derive(Clone, Debug, Deserialize)]
 pub struct StakeChainExtendedEvent {
     pub user: Address,
+    #[serde(rename = "isStake")]
     pub is_stake: bool,
     pub amount: U256,
+    #[serde(rename = "totalStaked")]
     pub total_staked: U256,
+    #[serde(rename = "totalUserStake")]
     pub total_user_stake: U256,
     pub timestamp: U256,
+    #[serde(rename = "previousStakeChain")]
     pub previous_event_hash: Bytes32,
+    #[serde(rename = "currentStakeChain")]
     pub current_event_hash: Bytes32,
 
     hash: Option<Bytes32>,

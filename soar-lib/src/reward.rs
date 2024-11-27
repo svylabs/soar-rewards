@@ -4,18 +4,24 @@ use serde::Deserialize;
 #[derive(Clone, Debug, Deserialize)]
 pub struct RewardChainExtendedEventJSON {
     pub amount: String,
+    #[serde(rename = "totalRewards")]
     pub total_reward: String,
     pub timestamp: String,
+    #[serde(rename = "previousRewardChain")]
     pub previous_event_hash: String,
+    #[serde(rename = "currentRewardChain")]
     pub current_event_hash: String,
 }
 
 #[derive(Clone, Debug, Deserialize)]
 pub struct RewardChainExtendedEvent {
     pub amount: U256,
+    #[serde(rename = "totalRewards")]
     pub total_reward: U256,
     pub timestamp: U256,
+    #[serde(rename = "previousRewardChain")]
     pub previous_event_hash: Bytes32,
+    #[serde(rename = "currentRewardChain")]
     pub current_event_hash: Bytes32,
 
     hash: Option<Bytes32>,

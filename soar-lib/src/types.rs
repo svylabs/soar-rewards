@@ -12,7 +12,7 @@ impl From<U256> for SolU256 {
     fn from(value: U256) -> Self {
         let mut bytes: [u8; 32] = [0; 32];
         let val_bytes = value.to_big_endian();
-        bytes[0..4].copy_from_slice(&val_bytes);
+        bytes[0..32].copy_from_slice(&val_bytes);
         SolU256::from_be_bytes(bytes)
     }
 }
@@ -40,5 +40,6 @@ sol! {
         bytes32 to_stake_event_hash;
         bytes32 from_user_stake_event_hash;
         bytes32 to_user_stake_event_hash;
+        bytes32 updated_to_reward_event_hash; // New field to enable updating to reward event hash based on the timestamp
     }
 }

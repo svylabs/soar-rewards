@@ -12,13 +12,13 @@
 
 use alloy_sol_types::SolType;
 use clap::Parser;
-use fibonacci_lib::PublicValuesStruct;
+use soar_lib::types::PublicValuesStruct;
 use sp1_sdk::{include_elf, ProverClient, SP1Stdin};
 use std::fs;
 use std::io;
 
 /// The ELF (executable and linkable format) file for the Succinct RISC-V zkVM.
-pub const FIBONACCI_ELF: &[u8] = include_elf!("fib");
+pub const SOAR_REWARDS: &[u8] = include_elf!("soar");
 
 /// The arguments for the command.
 #[derive(Parser, Debug)]
@@ -64,26 +64,19 @@ fn main() {
 
     if args.execute {
         // Execute the program
-        let (output, report) = client.execute(FIBONACCI_ELF, stdin).run().unwrap();
+        let (output, report) = client.execute(SOAR_REWARDS, stdin).run().unwrap();
         println!("Program executed successfully.");
 
         // Read the output.
         let decoded = PublicValuesStruct::abi_decode(output.as_slice(), true).unwrap();
-        let PublicValuesStruct { n, a, b } = decoded;
-        println!("n: {}", n);
-        println!("a: {}", a);
-        println!("b: {}", b);
-
-        let (expected_a, expected_b) = fibonacci_lib::fibonacci(n);
-        assert_eq!(a, expected_a);
-        assert_eq!(b, expected_b);
-        println!("Values are correct!");
+        println!("Total Rewards: {:?}", decoded.total_rewards);
+        println!("To Reward Event Hash: {:?}", decoded.to_reward_event_hash);
 
         // Record the number of cycles executed.
         println!("Number of cycles: {}", report.total_instruction_count());
     } else {
         // Setup the program for proving.
-        let (pk, vk) = client.setup(FIBONACCI_ELF);
+        let (pk, vk) = client.setup(SOAR_REWARDS);
         println!("Proving key length: {}", pk.elf.len());
         println!("Verifying key length: {}", pk.elf.len());
 
