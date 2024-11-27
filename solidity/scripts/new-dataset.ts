@@ -123,6 +123,7 @@ async function newDataset() {
     let user;
     let expectedRewards = BigInt(0);
     let userRewardEvents = [];
+    let timestampLastStakeChainEvent = BigInt(0);
 
     for (let i = 0;i<usrs.length;i++) {
         const tx = await stakingToken.connect(owner).transfer(usrs[i].address, ethers.parseEther("1000"));
@@ -260,6 +261,7 @@ async function newDataset() {
                 }
                 if (Math.random() < 0.1 && toStakeChainEvent === undefined) {
                     toStakeChainEvent = stakes[stakes.length - 1];
+                    timestampLastStakeChainEvent = stakes[stakes.length - 1].timestamp;
                     for (let j = stakes.length - 1;j>=0;j--) {
                         if (stakes[j].user === user) {
                             toUserStakeChainEvent = stakes[j];
@@ -310,15 +312,10 @@ async function newDataset() {
                     timestamp: timestamp,
                     previousRewardChain: previousRewardChain,
                     currentRewardChain: currentRewardChain
-                })
-                if (Math.random() < 0.1 && fromRewardChainEvent === undefined) {
-                    fromRewardChainEvent = rewards[rewards.length - 1];
-                }
+                });
+
                 // Ignore the from reward chain event, and always include the toRewardChainEvent
-                if (fromRewardChainEvent !== undefined && 
-                    fromRewardChainEvent.currentRewardChain != currentRewardChain && 
-                    toRewardChainEvent === undefined && 
-                    user !== undefined) {
+                if (fromRewardChainEvent !== undefined && toRewardChainEvent === undefined && user !== undefined) {
                     expectedRewards += (rewardAmount * balances[user].staked) / totalStaked;
                     userRewardEvents.push({
                         rewardEvent: rewards[rewards.length - 1],
@@ -326,13 +323,16 @@ async function newDataset() {
                         totalStaked: totalStaked
                     });
                 }
+                if (Math.random() < 0.1 && fromRewardChainEvent === undefined && timestampLastStakeChainEvent === BigInt(0)) {
+                    fromRewardChainEvent = rewards[rewards.length - 1];
+                }
+                if (Math.random() < 0.1 && toRewardChainEvent === undefined && timestampLastStakeChainEvent != BigInt(0) && timestamp > timestampLastStakeChainEvent) {
+                    toRewardChainEvent = rewards[rewards.length - 1];
+                }
             
                 // Update for the next iteration
                 previousRewardChain = currentRewardChain;
             }
-    }
-    if (Math.random() < 0.1 && fromRewardChainEvent !== undefined && toRewardChainEvent === undefined) {
-        toRewardChainEvent = rewards[rewards.length - 1];
     }
     if (toRewardChainEvent === undefined) {
         toRewardChainEvent = rewards[rewards.length - 1];
@@ -387,11 +387,17 @@ async function newDataset() {
         user: user,
         totalRewards: expectedRewards,
         fromRewardChainHash: fromRewardChainEvent ? fromRewardChainEvent.currentRewardChain : "0x0",
+        fromRewardChainTimestamp: fromRewardChainEvent ? fromRewardChainEvent.timestamp : 0,    
         toRewardChainHash: toRewardChainEvent ? toRewardChainEvent.currentRewardChain : "0x0",
+        toRewardChainTimestamp: toRewardChainEvent ? toRewardChainEvent.timestamp : 0,
         fromStakeChainHash: fromStakeChainEvent ? fromStakeChainEvent.currentStakeChain : "0x0",
+        fromStakeChainTimeStamp: fromStakeChainEvent ? fromStakeChainEvent.timestamp : 0,
         toStakeChainHash: toStakeChainEvent ? toStakeChainEvent.currentStakeChain : "0x0",
+        toStakeChainTimestamp: toStakeChainEvent ? toStakeChainEvent.timestamp : 0,
         fromUserStakeChain: fromUserStakeChainEvent ? fromUserStakeChainEvent.currentStakeChain : "0x0",
+        fromUserStakeChainTimestamp: fromUserStakeChainEvent ? fromUserStakeChainEvent.timestamp : 0,   
         toUserStakeChain: toUserStakeChainEvent ? toUserStakeChainEvent.currentStakeChain : "0x0",
+        toUserStakeChainTimestamp: toUserStakeChainEvent ? toUserStakeChainEvent.timestamp : 0,
         userRewardEvents: userRewardEvents
     }
     const output = JSON.stringify(expected, (k, v) => { if (typeof v === "bigint") return v.toString(); return v; }, 2);

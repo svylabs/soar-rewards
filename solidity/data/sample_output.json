@@ -1,276 +1,73 @@
 {
-  "user": "0xbDA5747bFD65F08deb54cb465eB87D40e51B197E",
-  "totalRewards": "41525497375176222693",
-  "fromRewardChainHash": "0x70f5ccfd3d63d5737da33262861199806f27e89b62b14c32baef9ae751cf8a63",
-  "toRewardChainHash": "0x91824340c1a02abad8293339b231e8a783b64a8d1a88d035ec69516188b8d3a4",
-  "fromStakeChainHash": "0x586c915e7782dfe385eed84b7e82a5a6ee43cdbea25c6809ede37f3c7c684cf9",
-  "toStakeChainHash": "0xbfcc5fc8584f1e21eeafc0182908a7010960e3750184fa4259abd6c7de6b2e4b",
+  "user": "0xFABB0ac9d68B0B445fB7357272Ff202C5651694a",
+  "totalRewards": "527385909719615841",
+  "fromRewardChainHash": "0x9c5ca9c5c6b20bceda32f850922518384a34f07d8908e5cb04ceeabd28616338",
+  "fromRewardChainTimestamp": "1733716421",
+  "toRewardChainHash": "0x239e04110e3c3f0f01982cf23ae4ea04967f29f56c7b76ab7075254d73106de8",
+  "toRewardChainTimestamp": "1734927860",
+  "fromStakeChainHash": "0x7f64428cbd054e7c97af0a69c5921412893342f6ca2f5d91408334925ad91311",
+  "fromStakeChainTimeStamp": "1733610341",
+  "toStakeChainHash": "0x89a56f120c0428a686cd4d7cf06f5dbf5dd751157d4c7ce6f1351012b2760e80",
+  "toStakeChainTimestamp": "1734855616",
   "fromUserStakeChain": "0x0",
-  "toUserStakeChain": "0x3d60610e1e6a939fa19380e39b8c9be48003fc88d12d37968fc29838ee928148",
+  "fromUserStakeChainTimestamp": 0,
+  "toUserStakeChain": "0xa1f600ce1a3bb676f4c02b58be386166f9730608710cbb3bf31edfe063645384",
+  "toUserStakeChainTimestamp": "1734368549",
   "userRewardEvents": [
     {
       "rewardEvent": {
-        "amount": "52460000000000000000",
-        "totalRewards": "654110000000000000000",
-        "timestamp": "1733619254",
-        "previousRewardChain": "0x70f5ccfd3d63d5737da33262861199806f27e89b62b14c32baef9ae751cf8a63",
-        "currentRewardChain": "0x2fa1b1a176c45b08f1e897dde9bd44508ee22ff0e4464dd8f74d1124d226422c"
+        "amount": "84950000000000000000",
+        "totalRewards": "829090000000000000000",
+        "timestamp": "1733909013",
+        "previousRewardChain": "0x9c5ca9c5c6b20bceda32f850922518384a34f07d8908e5cb04ceeabd28616338",
+        "currentRewardChain": "0x46121d277b4cb05c54bdb0703e27f85086ca961a78c09932c4576c3869a25b92"
       },
-      "userStake": "3130000000000000000",
-      "totalStaked": "67160000000000000000"
+      "userStake": "0",
+      "totalStaked": "65070000000000000000"
     },
     {
       "rewardEvent": {
-        "amount": "84570000000000000000",
-        "totalRewards": "738680000000000000000",
-        "timestamp": "1733679568",
-        "previousRewardChain": "0x2fa1b1a176c45b08f1e897dde9bd44508ee22ff0e4464dd8f74d1124d226422c",
-        "currentRewardChain": "0x8a2b85dff66680e877f601b2e97281d3811b95bb0d1c97522efd81776662e770"
+        "amount": "36290000000000000000",
+        "totalRewards": "865380000000000000000",
+        "timestamp": "1733915238",
+        "previousRewardChain": "0x46121d277b4cb05c54bdb0703e27f85086ca961a78c09932c4576c3869a25b92",
+        "currentRewardChain": "0x01b3acbb020239bceb2f75a263c736ebf11df6d487206dd39bc7ee224c0bd865"
       },
-      "userStake": "3130000000000000000",
-      "totalStaked": "69980000000000000000"
+      "userStake": "0",
+      "totalStaked": "65070000000000000000"
     },
     {
       "rewardEvent": {
-        "amount": "30190000000000000000",
-        "totalRewards": "768870000000000000000",
-        "timestamp": "1733766488",
-        "previousRewardChain": "0x8a2b85dff66680e877f601b2e97281d3811b95bb0d1c97522efd81776662e770",
-        "currentRewardChain": "0x229d6ee5d59615713a5ff90997897e5e7bab836d39efe64b240671fe0ff0a9d7"
+        "amount": "12240000000000000000",
+        "totalRewards": "877620000000000000000",
+        "timestamp": "1734205751",
+        "previousRewardChain": "0x01b3acbb020239bceb2f75a263c736ebf11df6d487206dd39bc7ee224c0bd865",
+        "currentRewardChain": "0x5f1f498b34738f975a7e97e94f2ca563ff82ef79cd32552cd40e11049033d94c"
       },
-      "userStake": "3130000000000000000",
-      "totalStaked": "72440000000000000000"
+      "userStake": "0",
+      "totalStaked": "83900000000000000000"
     },
     {
       "rewardEvent": {
-        "amount": "97980000000000000000",
-        "totalRewards": "866850000000000000000",
-        "timestamp": "1734228621",
-        "previousRewardChain": "0x229d6ee5d59615713a5ff90997897e5e7bab836d39efe64b240671fe0ff0a9d7",
-        "currentRewardChain": "0x264051faeb270a596b125144dd45cd66851147aaa6341082aa34b79981eaee0d"
+        "amount": "8710000000000000000",
+        "totalRewards": "886330000000000000000",
+        "timestamp": "1734710758",
+        "previousRewardChain": "0x5f1f498b34738f975a7e97e94f2ca563ff82ef79cd32552cd40e11049033d94c",
+        "currentRewardChain": "0xe301de1a675a8ba7f58fae65c43db1a30591c3b345e1baf31a75796f2f7f1717"
       },
-      "userStake": "3130000000000000000",
-      "totalStaked": "84260000000000000000"
+      "userStake": "1050000000000000000",
+      "totalStaked": "141860000000000000000"
     },
     {
       "rewardEvent": {
-        "amount": "33400000000000000000",
-        "totalRewards": "900250000000000000000",
-        "timestamp": "1734305718",
-        "previousRewardChain": "0x264051faeb270a596b125144dd45cd66851147aaa6341082aa34b79981eaee0d",
-        "currentRewardChain": "0xf680520b46da5fbfb4b1e570fc2a4aa4a1081d569f2f5d93de7853d3e6372e8a"
+        "amount": "56110000000000000000",
+        "totalRewards": "942440000000000000000",
+        "timestamp": "1734927860",
+        "previousRewardChain": "0xe301de1a675a8ba7f58fae65c43db1a30591c3b345e1baf31a75796f2f7f1717",
+        "currentRewardChain": "0x239e04110e3c3f0f01982cf23ae4ea04967f29f56c7b76ab7075254d73106de8"
       },
-      "userStake": "3130000000000000000",
-      "totalStaked": "84260000000000000000"
-    },
-    {
-      "rewardEvent": {
-        "amount": "49390000000000000000",
-        "totalRewards": "949640000000000000000",
-        "timestamp": "1734469943",
-        "previousRewardChain": "0xf680520b46da5fbfb4b1e570fc2a4aa4a1081d569f2f5d93de7853d3e6372e8a",
-        "currentRewardChain": "0x9ec2e5f60332a42bf6f576a8f2f60460232af19699802e3dcc3f0097abb713d3"
-      },
-      "userStake": "3130000000000000000",
-      "totalStaked": "69690000000000000000"
-    },
-    {
-      "rewardEvent": {
-        "amount": "81370000000000000000",
-        "totalRewards": "1031010000000000000000",
-        "timestamp": "1734595988",
-        "previousRewardChain": "0x9ec2e5f60332a42bf6f576a8f2f60460232af19699802e3dcc3f0097abb713d3",
-        "currentRewardChain": "0xeb81473294d188c75c15394ba37334d764fbd5b426ee6e31771951f5411a2a25"
-      },
-      "userStake": "3130000000000000000",
-      "totalStaked": "74450000000000000000"
-    },
-    {
-      "rewardEvent": {
-        "amount": "52390000000000000000",
-        "totalRewards": "1083400000000000000000",
-        "timestamp": "1734660476",
-        "previousRewardChain": "0xeb81473294d188c75c15394ba37334d764fbd5b426ee6e31771951f5411a2a25",
-        "currentRewardChain": "0x4ea1dae88edd17acbe75a8052a7e599c6b9d82a7dcf030aa5416474d07aee272"
-      },
-      "userStake": "3130000000000000000",
-      "totalStaked": "74450000000000000000"
-    },
-    {
-      "rewardEvent": {
-        "amount": "58310000000000000000",
-        "totalRewards": "1141710000000000000000",
-        "timestamp": "1734716897",
-        "previousRewardChain": "0x4ea1dae88edd17acbe75a8052a7e599c6b9d82a7dcf030aa5416474d07aee272",
-        "currentRewardChain": "0xc121a360a522d9101ea0e4ae015e05c198f376f11215bf9bbe4ce2cb91ae7fc0"
-      },
-      "userStake": "3130000000000000000",
-      "totalStaked": "83500000000000000000"
-    },
-    {
-      "rewardEvent": {
-        "amount": "60370000000000000000",
-        "totalRewards": "1202080000000000000000",
-        "timestamp": "1734814797",
-        "previousRewardChain": "0xc121a360a522d9101ea0e4ae015e05c198f376f11215bf9bbe4ce2cb91ae7fc0",
-        "currentRewardChain": "0xd961cc5cf405816fdf9698855a9f1c2a33d51e330a77124b2935f7aeb3aeb77a"
-      },
-      "userStake": "3130000000000000000",
-      "totalStaked": "81510000000000000000"
-    },
-    {
-      "rewardEvent": {
-        "amount": "29210000000000000000",
-        "totalRewards": "1231290000000000000000",
-        "timestamp": "1734875762",
-        "previousRewardChain": "0xd961cc5cf405816fdf9698855a9f1c2a33d51e330a77124b2935f7aeb3aeb77a",
-        "currentRewardChain": "0xbb8169c7a2b369289eb1c2265369d6b7886082f91a11bc69c2ca3d0c49856f54"
-      },
-      "userStake": "3130000000000000000",
-      "totalStaked": "81510000000000000000"
-    },
-    {
-      "rewardEvent": {
-        "amount": "86240000000000000000",
-        "totalRewards": "1317530000000000000000",
-        "timestamp": "1734960527",
-        "previousRewardChain": "0xbb8169c7a2b369289eb1c2265369d6b7886082f91a11bc69c2ca3d0c49856f54",
-        "currentRewardChain": "0x048988ff896192e9784290295b0e8de6e5b984922a745b8554331c2f2c36f29a"
-      },
-      "userStake": "3130000000000000000",
-      "totalStaked": "87190000000000000000"
-    },
-    {
-      "rewardEvent": {
-        "amount": "60430000000000000000",
-        "totalRewards": "1377960000000000000000",
-        "timestamp": "1735100273",
-        "previousRewardChain": "0x048988ff896192e9784290295b0e8de6e5b984922a745b8554331c2f2c36f29a",
-        "currentRewardChain": "0x2de097de59122a276263f9512391c97c825602236ac0b49d511722cf7ef72e93"
-      },
-      "userStake": "3130000000000000000",
-      "totalStaked": "105140000000000000000"
-    },
-    {
-      "rewardEvent": {
-        "amount": "73090000000000000000",
-        "totalRewards": "1451050000000000000000",
-        "timestamp": "1735251312",
-        "previousRewardChain": "0x2de097de59122a276263f9512391c97c825602236ac0b49d511722cf7ef72e93",
-        "currentRewardChain": "0x4c9eeed509d9a63ea5f3767c490df38dd00d2af253580f9110ba869952277d9c"
-      },
-      "userStake": "3130000000000000000",
-      "totalStaked": "124350000000000000000"
-    },
-    {
-      "rewardEvent": {
-        "amount": "7130000000000000000",
-        "totalRewards": "1458180000000000000000",
-        "timestamp": "1735453367",
-        "previousRewardChain": "0x4c9eeed509d9a63ea5f3767c490df38dd00d2af253580f9110ba869952277d9c",
-        "currentRewardChain": "0x5bb4d8d4b24b6a682055c87a53e467f9925e5cdb4b8b64c4cf60ebbf8447eadc"
-      },
-      "userStake": "3130000000000000000",
-      "totalStaked": "127650000000000000000"
-    },
-    {
-      "rewardEvent": {
-        "amount": "12320000000000000000",
-        "totalRewards": "1470500000000000000000",
-        "timestamp": "1735453369",
-        "previousRewardChain": "0x5bb4d8d4b24b6a682055c87a53e467f9925e5cdb4b8b64c4cf60ebbf8447eadc",
-        "currentRewardChain": "0x1dea2d082cc8d77f79b6361a3896fede63321cdd8c4d1b8790d5bb81417b2b0e"
-      },
-      "userStake": "3130000000000000000",
-      "totalStaked": "127650000000000000000"
-    },
-    {
-      "rewardEvent": {
-        "amount": "37820000000000000000",
-        "totalRewards": "1508320000000000000000",
-        "timestamp": "1735596913",
-        "previousRewardChain": "0x1dea2d082cc8d77f79b6361a3896fede63321cdd8c4d1b8790d5bb81417b2b0e",
-        "currentRewardChain": "0x270ea9a40212c85c9179930a6aec97adffd970436b3e00a26229795dcad322e2"
-      },
-      "userStake": "3130000000000000000",
-      "totalStaked": "127650000000000000000"
-    },
-    {
-      "rewardEvent": {
-        "amount": "28040000000000000000",
-        "totalRewards": "1536360000000000000000",
-        "timestamp": "1735607682",
-        "previousRewardChain": "0x270ea9a40212c85c9179930a6aec97adffd970436b3e00a26229795dcad322e2",
-        "currentRewardChain": "0x724e00b10dd7df4e24be9dcb27ca30433a2bca687c99e44ebac926fac9e41b02"
-      },
-      "userStake": "3130000000000000000",
-      "totalStaked": "127650000000000000000"
-    },
-    {
-      "rewardEvent": {
-        "amount": "66450000000000000000",
-        "totalRewards": "1602810000000000000000",
-        "timestamp": "1735720361",
-        "previousRewardChain": "0x724e00b10dd7df4e24be9dcb27ca30433a2bca687c99e44ebac926fac9e41b02",
-        "currentRewardChain": "0x9175a081ccc4bdcbb38ae58b09284923113a36899c9e386f4cb4d49ac8469dc2"
-      },
-      "userStake": "3130000000000000000",
-      "totalStaked": "131250000000000000000"
-    },
-    {
-      "rewardEvent": {
-        "amount": "12020000000000000000",
-        "totalRewards": "1614830000000000000000",
-        "timestamp": "1736084582",
-        "previousRewardChain": "0x9175a081ccc4bdcbb38ae58b09284923113a36899c9e386f4cb4d49ac8469dc2",
-        "currentRewardChain": "0x7359f90a994bb083be1cf1d47dba34b2a2622a4209be8c9bee2dcfd565900f24"
-      },
-      "userStake": "3130000000000000000",
-      "totalStaked": "139260000000000000000"
-    },
-    {
-      "rewardEvent": {
-        "amount": "99820000000000000000",
-        "totalRewards": "1714650000000000000000",
-        "timestamp": "1736206791",
-        "previousRewardChain": "0x7359f90a994bb083be1cf1d47dba34b2a2622a4209be8c9bee2dcfd565900f24",
-        "currentRewardChain": "0x707bb6321ce2322f5864567fc9773a0248625ac53609b2366e76fcc85dcf5a16"
-      },
-      "userStake": "3130000000000000000",
-      "totalStaked": "135550000000000000000"
-    },
-    {
-      "rewardEvent": {
-        "amount": "76560000000000000000",
-        "totalRewards": "1791210000000000000000",
-        "timestamp": "1736617932",
-        "previousRewardChain": "0x707bb6321ce2322f5864567fc9773a0248625ac53609b2366e76fcc85dcf5a16",
-        "currentRewardChain": "0xf8ab3ee9ae22360f35f4cb1371d42edc1d8941c42f3bc5cd3a026f8e01143af8"
-      },
-      "userStake": "3130000000000000000",
-      "totalStaked": "133110000000000000000"
-    },
-    {
-      "rewardEvent": {
-        "amount": "17290000000000000000",
-        "totalRewards": "1808500000000000000000",
-        "timestamp": "1736675337",
-        "previousRewardChain": "0xf8ab3ee9ae22360f35f4cb1371d42edc1d8941c42f3bc5cd3a026f8e01143af8",
-        "currentRewardChain": "0xbb2b527047b0abae62b2f0842e31e913d8e20dad46d85689bf01b794835f1762"
-      },
-      "userStake": "3130000000000000000",
-      "totalStaked": "136910000000000000000"
-    },
-    {
-      "rewardEvent": {
-        "amount": "20990000000000000000",
-        "totalRewards": "1829490000000000000000",
-        "timestamp": "1736797102",
-        "previousRewardChain": "0xbb2b527047b0abae62b2f0842e31e913d8e20dad46d85689bf01b794835f1762",
-        "currentRewardChain": "0x91824340c1a02abad8293339b231e8a783b64a8d1a88d035ec69516188b8d3a4"
-      },
-      "userStake": "3130000000000000000",
-      "totalStaked": "141580000000000000000"
+      "userStake": "1050000000000000000",
+      "totalStaked": "127270000000000000000"
     }
   ]
 }
