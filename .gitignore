@@ -17,7 +17,9 @@ pgo-data.profdata
 
 # Env
 .env
-**/node_modules/*
-solidity/artifacts/*
-solidity/cache/*
-solidity/data/*
+**/node_modules
+solidity/artifacts
+solidity/cache
+solidity/data
+solidity/coverage
+solidity/typechain-types
