@@ -98,6 +98,11 @@ The rewards can be computed offline along with the proof, and claimed by calling
 
 Once the rewards have been claimed for a particular claim, the cycle can be repeated as many times as one wants.
 
+# Advantages
+1. Protocol tokens can be issued once on mainnet.
+2. Reducing the incentive to issue new tokens, backroom dealings and fragmenting rewards.
+3. Reducing the implementation effort to distribute rewards when launching the protocol in a new L2.
+
 We are using SP1 prover for this prototype and the following helps with setting up the repo and testing the flow.
 
 # Testing
