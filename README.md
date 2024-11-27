@@ -81,7 +81,7 @@ The relay function is called by the trustless bridging mechanism.
     }
 ```
 
-The rewards can be claimed by calling
+The rewards can be computed offline along with the proof, and claimed by calling
 
 ```
      function claim(proof, publicInputs) {
@@ -92,6 +92,8 @@ The rewards can be claimed by calling
 ```
 
 Once the rewards have been claimed for a particular claim, the cycle can be repeated as many times as one wants.
+
+We are using SP1 prover for this prototype and the following helps with setting up the repo and testing the flow.
 
 # Testing
 
