@@ -1,11 +1,13 @@
 # SOAR Staking & Rewards
-SOAR; Stake Once; Amplify Rewards is a staking protocol, where users can stake once in mainnet(Ethereum) and are able to permissionlessly claim staking rewards in many chains / L2s, where trustless bridges are available.
+SOAR; Stake Once; Amplify Rewards is a staking protocol, where users can stake once in mainnet(Ethereum) and are able to permissionlessly claim staking rewards in many chains / L2s, where trustless bridge between that chain and ethereum is available.
 
 # Usecase
-Imagine a protocol that is live on Ethereum mainnet, and staking the protocol tokens in mainnet earns fees from the protocol. Now, imagine that protocol has to be deployed on other chains like Arbitrum / Starknet / Base / Optimism / etc. There are a couple of ways to solve this:
-1. One way to do this would be to issue new tokens on those chains. This obviously have fragmentation of fee revenue across different protocols.
-2. Issue LSDs for the staked token on mainnet, that can be used across different chains. This again makes it complex when introducing the protocol on new chains.
+Imagine a protocol that is live on Ethereum mainnet, and staking the protocol tokens in mainnet earns fees from the protocol. Now, imagine, that same protocol has to be deployed on other chains like Arbitrum / Starknet / Base / Optimism / etc. The question arises, how would you go about rewarding users? There are a couple of ways to solve this:
+1. One way is to issue new tokens on those chains. This obviously have fragmentation of fee revenue across different protocols.
+2. Issue LSDs for the staked token on mainnet that can be used across different chains. This again makes it complex when introducing the protocol on new chains resulting in fragmentation again.
 3. Revenue from the other deployments are sent to mainnet periodically. This is not straightforward as well, as the revenue can be in a different token that is not known to the mainnet contracts.
+
+Even within a chain, imagine a team developing multiple protocols, and want to divert revenue from all those protocols to the token holders, without implementing a new staking contract each time a new protocol is introduced.
 
 # Solution
 SOAR(Stake Once; Amplify Rewards): A unified staking protocol, where users stake in a staking pool once on mainnet, and are able to permissionlessly claim rewards from other chains by presenting a proof that at each reward event on another chain, a user had a particular amount of stake, and their share of revenue at the reward event was a particular value. Finally aggregating the total reward and a proof that this is the aggregated reward claim.
@@ -36,7 +38,7 @@ Where the current event hash in addition to the current stake, timestamp, etc.. 
 
 ## Relay Contract(Mainnet)
 
-Relay Contracts are deployed once per new chain / L2. The main function of relay contract is to trustlessly pass a message to the L2 Reward Contract the latest stake snapshot of the user and the global stake snapshot. So it mainly has only one function
+Relay Contracts are deployed once per new chain / L2. The main function of relay contract is to trustlessly pass a message to the L2 Reward Contract the latest stake snapshot of the user and the global stake snapshot. So it has only one function
 
 ```
     struct Snapshot {
@@ -44,9 +46,12 @@ Relay Contracts are deployed once per new chain / L2. The main function of relay
         bytes32 userStakeSnapshot,
         bytes32 globalStakeSnapshot
     }
-    function relaySnapshot() {
+    constructor(L2Bridge _l2) {
+       this.l2 = l2;
+    }
+    function relay() {
          Snapshot snapshot = constructSnapshot(); // Construct this snapshot by making a function call to the Staking contract
-         relay(snapshot)
+         l2.relay(snapshot)
     }
 ```
 
