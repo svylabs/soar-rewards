@@ -8,7 +8,7 @@
 #![no_main]
 sp1_zkvm::entrypoint!(main);
 
-use alloy_sol_types::SolType;
+use alloy_sol_types::{sol_data::Bytes, SolType};
 //use fibonacci_lib::{fibonacci, PublicValuesStruct};
 use soar_lib::{
     reward,
@@ -26,24 +26,35 @@ pub fn main() {
 
     // Compute the n'th fibonacci number using a function from the workspace lib crate.
     let total_rewards = reward_calculator.calculate_reward();
+    let mut claim = reward_calculator.claim;
 
-    let mut from_user_stake_event = reward_calculator.claim.from_user_stake_event;
+    let mut from_user_stake_event = claim.from_user_stake_event;
     let mut from_user_stake_event_hash = Bytes32::zero();
     if from_user_stake_event.is_some() {
         from_user_stake_event_hash = from_user_stake_event.unwrap().hash();
+    }
+    let mut from_stake_event_hash = Bytes32::zero();
+    let mut from_stake_event = claim.from_stake_event;
+    if from_stake_event.is_some() {
+        from_stake_event_hash = from_stake_event.unwrap().hash();
+    }
+    let mut from_reward_event_hash = Bytes32::zero();
+    let mut from_reward_event = claim.from_reward_event;
+    if from_reward_event.is_some() {
+        from_reward_event_hash = from_reward_event.unwrap().hash();
     }
 
     // Encode the output of the program.
     let pub_vals = PublicValuesStruct {
         user: reward_calculator.user.into(),
         total_rewards: total_rewards.into(),
-        from_reward_event_hash: reward_calculator.claim.from_reward_event.hash().into(),
-        to_reward_event_hash: reward_calculator.claim.to_reward_event.hash().into(),
-        from_stake_event_hash: reward_calculator.claim.from_stake_event.hash().into(),
-        to_stake_event_hash: reward_calculator.claim.to_stake_event.hash().into(),
+        from_reward_event_hash: from_reward_event_hash.into(),
+        to_reward_event_hash: claim.to_reward_event.hash().into(),
+        from_stake_event_hash: from_stake_event_hash.into(),
+        to_stake_event_hash: claim.to_stake_event.hash().into(),
         from_user_stake_event_hash: from_user_stake_event_hash.into(),
-        to_user_stake_event_hash: reward_calculator.claim.to_user_stake_event.hash().into(),
-        updated_to_reward_event_hash: reward_calculator.claim.to_reward_event.hash().into(),
+        to_user_stake_event_hash: claim.to_user_stake_event.hash().into(),
+        updated_to_reward_event_hash: Bytes32::zero().into(),
     };
 
     // Encode the public values of the program.

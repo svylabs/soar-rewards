@@ -408,6 +408,7 @@ async function newDataset() {
         }),
         claim: claim
     }
+    fs.writeFileSync('./data/input-plain.json', JSON.stringify(json, (k, v) => { if (typeof v === "bigint") return v.toString(); return v; }, 2));
     //console.log("=====================================");
     const input = JSON.stringify(json, serializeToRust);
     //console.log(JSON.stringify(json, serializeToRust));
