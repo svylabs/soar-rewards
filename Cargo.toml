@@ -1,0 +1,10 @@
+[workspace]
+members = [
+    "lib",
+    "program",
+    "script", "soar-lib",
+]
+resolver = "2"
+
+[workspace.dependencies]
+alloy-sol-types = "0.7.7"
