@@ -1,6 +1,6 @@
 # SOAR Staking & Rewards
 
-**SOAR: Stake Once; Amplify Rewards** is a staking protocol, where users can stake once in mainnet(Ethereum) and are able to permissionlessly claim staking rewards in many chains / L2s, where trustless bridge between that chain and ethereum is available.
+**SOAR: Stake Once; Amplify Rewards** is a staking protocol for dapps offering revenue from protocol yield to token holders, where users can stake once in mainnet(Ethereum) and are able to permissionlessly claim staking rewards in many chains / L2s, where trustless bridge between that chain and ethereum is available.
 
 # Usecase
 
