@@ -1,247 +1,275 @@
 [
   {
-    "amount": "36140000000000000000",
-    "totalRewards": "36140000000000000000",
-    "timestamp": "1732845882",
+    "amount": "34000000000000000000",
+    "totalRewards": "34000000000000000000",
+    "timestamp": "1732902532",
     "previousRewardChain": "0x0000000000000000000000000000000000000000000000000000000000000000",
-    "currentRewardChain": "0x0291573747e25acdb5ef409b2e86e883b9784dab092bc219ed204635280de5f6"
+    "currentRewardChain": "0x57775f9e410d9f7ae6fcfdb6167c11109e2209e7bcb6da4c9a8f9ccfe3545202"
   },
   {
-    "amount": "21940000000000000000",
-    "totalRewards": "58080000000000000000",
-    "timestamp": "1732850819",
-    "previousRewardChain": "0x0291573747e25acdb5ef409b2e86e883b9784dab092bc219ed204635280de5f6",
-    "currentRewardChain": "0xaa2a635ae6223e6929f9d25824acc9634e6e12a0142945caa0c1f94a16bbaaa3"
+    "amount": "96030000000000000000",
+    "totalRewards": "130030000000000000000",
+    "timestamp": "1732972818",
+    "previousRewardChain": "0x57775f9e410d9f7ae6fcfdb6167c11109e2209e7bcb6da4c9a8f9ccfe3545202",
+    "currentRewardChain": "0xf2addfa587e180adb9bd8d680db27f0ff9bd0af534a26edf47b254727b5e567a"
   },
   {
-    "amount": "21390000000000000000",
-    "totalRewards": "79470000000000000000",
-    "timestamp": "1732850821",
-    "previousRewardChain": "0xaa2a635ae6223e6929f9d25824acc9634e6e12a0142945caa0c1f94a16bbaaa3",
-    "currentRewardChain": "0x29220163b09ec8eca675bf0df2c160017858642462b4e7d73a91451851863302"
+    "amount": "24440000000000000000",
+    "totalRewards": "154470000000000000000",
+    "timestamp": "1733126260",
+    "previousRewardChain": "0xf2addfa587e180adb9bd8d680db27f0ff9bd0af534a26edf47b254727b5e567a",
+    "currentRewardChain": "0xbc48fb8e4fc254b35727b9bc7d5fc2e083f37a917f13eb9cd82c0270b961c3d5"
   },
   {
-    "amount": "88720000000000000000",
-    "totalRewards": "168190000000000000000",
-    "timestamp": "1733228045",
-    "previousRewardChain": "0x29220163b09ec8eca675bf0df2c160017858642462b4e7d73a91451851863302",
-    "currentRewardChain": "0xbda8970ec57f6b1c8b77c4cf873e64cdfe457dc47c3152fcf691d98ae3ba7fe8"
+    "amount": "94280000000000000000",
+    "totalRewards": "248750000000000000000",
+    "timestamp": "1733195367",
+    "previousRewardChain": "0xbc48fb8e4fc254b35727b9bc7d5fc2e083f37a917f13eb9cd82c0270b961c3d5",
+    "currentRewardChain": "0xa477fef165e3b23fa868539ed124c2c1e17c000038af4ee5be8a0e36c21d30a4"
   },
   {
-    "amount": "72300000000000000000",
-    "totalRewards": "240490000000000000000",
-    "timestamp": "1733433345",
-    "previousRewardChain": "0xbda8970ec57f6b1c8b77c4cf873e64cdfe457dc47c3152fcf691d98ae3ba7fe8",
-    "currentRewardChain": "0x024f87aec935ebc9f86fbdaebeae9a2f2ed80cdf6dd701bda669a343181164c2"
+    "amount": "24930000000000000000",
+    "totalRewards": "273680000000000000000",
+    "timestamp": "1733304955",
+    "previousRewardChain": "0xa477fef165e3b23fa868539ed124c2c1e17c000038af4ee5be8a0e36c21d30a4",
+    "currentRewardChain": "0x41c8926f4712bd5e59821aaf0890a163168a2804198a6666e5ce23c87bc219ad"
   },
   {
-    "amount": "59700000000000000000",
-    "totalRewards": "300190000000000000000",
-    "timestamp": "1733508057",
-    "previousRewardChain": "0x024f87aec935ebc9f86fbdaebeae9a2f2ed80cdf6dd701bda669a343181164c2",
-    "currentRewardChain": "0xb31132fe6ce4ac52f51abe03868f1a5d1db3469026ffce0cc4081a28a617857c"
+    "amount": "80420000000000000000",
+    "totalRewards": "354100000000000000000",
+    "timestamp": "1733354316",
+    "previousRewardChain": "0x41c8926f4712bd5e59821aaf0890a163168a2804198a6666e5ce23c87bc219ad",
+    "currentRewardChain": "0x9a9c28860f3d06699faea4346a0007738fcd256933ef5e683e06093c627e15ea"
   },
   {
-    "amount": "54090000000000000000",
-    "totalRewards": "354280000000000000000",
-    "timestamp": "1733523892",
-    "previousRewardChain": "0xb31132fe6ce4ac52f51abe03868f1a5d1db3469026ffce0cc4081a28a617857c",
-    "currentRewardChain": "0xb3fb4f42501058be114fcdedce2be43cebd0c7f8eb060e9d9e9a3f9925f3e06c"
+    "amount": "47040000000000000000",
+    "totalRewards": "401140000000000000000",
+    "timestamp": "1733484082",
+    "previousRewardChain": "0x9a9c28860f3d06699faea4346a0007738fcd256933ef5e683e06093c627e15ea",
+    "currentRewardChain": "0xa0740e816403ccbbc2950a6d963cb7d1ffec271894ca973fb8a68bf5b4904c5e"
   },
   {
-    "amount": "78120000000000000000",
-    "totalRewards": "432400000000000000000",
-    "timestamp": "1733586959",
-    "previousRewardChain": "0xb3fb4f42501058be114fcdedce2be43cebd0c7f8eb060e9d9e9a3f9925f3e06c",
-    "currentRewardChain": "0xee89b318bc53d346a7c7461f46c7a3d847d2c2172073f5f88fb12cfbe99a6c18"
+    "amount": "76170000000000000000",
+    "totalRewards": "477310000000000000000",
+    "timestamp": "1733495645",
+    "previousRewardChain": "0xa0740e816403ccbbc2950a6d963cb7d1ffec271894ca973fb8a68bf5b4904c5e",
+    "currentRewardChain": "0x2752d863b0960995deda5c154b34c248e5731003243c171c5331f9c3b7fb208a"
   },
   {
-    "amount": "88810000000000000000",
-    "totalRewards": "521210000000000000000",
-    "timestamp": "1733826679",
-    "previousRewardChain": "0xee89b318bc53d346a7c7461f46c7a3d847d2c2172073f5f88fb12cfbe99a6c18",
-    "currentRewardChain": "0x13278c74b406204c10e6929315875a4074bbb8705cd7131dd33a1f330be904b9"
+    "amount": "87720000000000000000",
+    "totalRewards": "565030000000000000000",
+    "timestamp": "1733530368",
+    "previousRewardChain": "0x2752d863b0960995deda5c154b34c248e5731003243c171c5331f9c3b7fb208a",
+    "currentRewardChain": "0xec2b99b087dde24619004e7a8ce08ed3ed237772bcd78051eb16e69e1a7bbc04"
   },
   {
-    "amount": "2370000000000000000",
-    "totalRewards": "523580000000000000000",
-    "timestamp": "1734066099",
-    "previousRewardChain": "0x13278c74b406204c10e6929315875a4074bbb8705cd7131dd33a1f330be904b9",
-    "currentRewardChain": "0xbe18dc5c3a4e65e5af01b20d5a7163972ff2f980ced20ee469536e2338007a7b"
+    "amount": "84790000000000000000",
+    "totalRewards": "649820000000000000000",
+    "timestamp": "1733550447",
+    "previousRewardChain": "0xec2b99b087dde24619004e7a8ce08ed3ed237772bcd78051eb16e69e1a7bbc04",
+    "currentRewardChain": "0xb312c54375ecbbd91e7386eec2725bd4a00979a560de6b7ae8d577f0e579f727"
   },
   {
-    "amount": "78860000000000000000",
-    "totalRewards": "602440000000000000000",
-    "timestamp": "1734118537",
-    "previousRewardChain": "0xbe18dc5c3a4e65e5af01b20d5a7163972ff2f980ced20ee469536e2338007a7b",
-    "currentRewardChain": "0x898c0f723230df3ec959b172af490f1dab8f384164abbdbadf4ba6bce3ad89b7"
+    "amount": "12760000000000000000",
+    "totalRewards": "662580000000000000000",
+    "timestamp": "1733630494",
+    "previousRewardChain": "0xb312c54375ecbbd91e7386eec2725bd4a00979a560de6b7ae8d577f0e579f727",
+    "currentRewardChain": "0xd24cfe2d4bcab6959241b6f6d21e7e8136c42dcd341f9dee9011f64a0aa71462"
   },
   {
-    "amount": "25490000000000000000",
-    "totalRewards": "627930000000000000000",
-    "timestamp": "1734183141",
-    "previousRewardChain": "0x898c0f723230df3ec959b172af490f1dab8f384164abbdbadf4ba6bce3ad89b7",
-    "currentRewardChain": "0x91d32fbbdca2f83dcb909eb4b3f9326256155e0b143b1c61fadcdec842035f2e"
+    "amount": "17310000000000000000",
+    "totalRewards": "679890000000000000000",
+    "timestamp": "1733657147",
+    "previousRewardChain": "0xd24cfe2d4bcab6959241b6f6d21e7e8136c42dcd341f9dee9011f64a0aa71462",
+    "currentRewardChain": "0x846bc0ff417d3b59df35ae2335bf81e98773dc730727e2be0bb8478c2e70e604"
   },
   {
-    "amount": "81960000000000000000",
-    "totalRewards": "709890000000000000000",
-    "timestamp": "1734230763",
-    "previousRewardChain": "0x91d32fbbdca2f83dcb909eb4b3f9326256155e0b143b1c61fadcdec842035f2e",
-    "currentRewardChain": "0xbc602516a2569d5293249ca871283a4c0171317bf0ae6c41ef04ba2cc2ff2843"
+    "amount": "63780000000000000000",
+    "totalRewards": "743670000000000000000",
+    "timestamp": "1733741602",
+    "previousRewardChain": "0x846bc0ff417d3b59df35ae2335bf81e98773dc730727e2be0bb8478c2e70e604",
+    "currentRewardChain": "0xd94aaa93f05847cb76f292ba5e72da57a5af4954ed109ab4ddd74c91c0cc10af"
   },
   {
-    "amount": "86670000000000000000",
-    "totalRewards": "796560000000000000000",
-    "timestamp": "1734445036",
-    "previousRewardChain": "0xbc602516a2569d5293249ca871283a4c0171317bf0ae6c41ef04ba2cc2ff2843",
-    "currentRewardChain": "0xa420fd908076ca995c02818d87274ca9d4203349c306fd625711b2dc3b674d06"
+    "amount": "58680000000000000000",
+    "totalRewards": "802350000000000000000",
+    "timestamp": "1733767636",
+    "previousRewardChain": "0xd94aaa93f05847cb76f292ba5e72da57a5af4954ed109ab4ddd74c91c0cc10af",
+    "currentRewardChain": "0x9ad16939095b792dc49015385c756d4825d8f0c6c0da9c2ce3fb8e09bca46242"
   },
   {
-    "amount": "67490000000000000000",
-    "totalRewards": "864050000000000000000",
-    "timestamp": "1734546840",
-    "previousRewardChain": "0xa420fd908076ca995c02818d87274ca9d4203349c306fd625711b2dc3b674d06",
-    "currentRewardChain": "0xca7515e3292da4fb525860088374f10833b0b4405b97eadbe2a6ad25a529b86a"
+    "amount": "66510000000000000000",
+    "totalRewards": "868860000000000000000",
+    "timestamp": "1733781229",
+    "previousRewardChain": "0x9ad16939095b792dc49015385c756d4825d8f0c6c0da9c2ce3fb8e09bca46242",
+    "currentRewardChain": "0x6bf5ca07236d7818aabd517e3a44e31edfdee2a576b8c6d9901ea6eaf5fd46a8"
   },
   {
-    "amount": "48020000000000000000",
-    "totalRewards": "912070000000000000000",
-    "timestamp": "1734550488",
-    "previousRewardChain": "0xca7515e3292da4fb525860088374f10833b0b4405b97eadbe2a6ad25a529b86a",
-    "currentRewardChain": "0xbf42735ed2d2e532ccea27772d736b059e3ecb263e33959305e9a4504247bc22"
+    "amount": "29720000000000000000",
+    "totalRewards": "898580000000000000000",
+    "timestamp": "1733807161",
+    "previousRewardChain": "0x6bf5ca07236d7818aabd517e3a44e31edfdee2a576b8c6d9901ea6eaf5fd46a8",
+    "currentRewardChain": "0x081282feb490a182475ffe3197e98f1e7a0adbeceffa54bfe87266d586ff98c0"
   },
   {
-    "amount": "1710000000000000000",
-    "totalRewards": "913780000000000000000",
-    "timestamp": "1734850261",
-    "previousRewardChain": "0xbf42735ed2d2e532ccea27772d736b059e3ecb263e33959305e9a4504247bc22",
-    "currentRewardChain": "0xab4ea85d62db55f0bfb385faa7350f8362ac94d3298c92ad93a2f64e3f34856a"
+    "amount": "91990000000000000000",
+    "totalRewards": "990570000000000000000",
+    "timestamp": "1733848214",
+    "previousRewardChain": "0x081282feb490a182475ffe3197e98f1e7a0adbeceffa54bfe87266d586ff98c0",
+    "currentRewardChain": "0xedaf8acb8c4cfe85402a9c52fa5621c38a00cb3ac949b92da2173bf82087f508"
   },
   {
-    "amount": "97450000000000000000",
-    "totalRewards": "1011230000000000000000",
-    "timestamp": "1735021164",
-    "previousRewardChain": "0xab4ea85d62db55f0bfb385faa7350f8362ac94d3298c92ad93a2f64e3f34856a",
-    "currentRewardChain": "0x0d24effbc7e6628c22b99277a302c8985d79cf1a6a04fe4af267459e711bdfb0"
+    "amount": "69950000000000000000",
+    "totalRewards": "1060520000000000000000",
+    "timestamp": "1733984154",
+    "previousRewardChain": "0xedaf8acb8c4cfe85402a9c52fa5621c38a00cb3ac949b92da2173bf82087f508",
+    "currentRewardChain": "0x4a63e5527b0cd6e2a9ac32539c4803775e0f0c3670dec3c02f95a5f1976252c4"
   },
   {
-    "amount": "77070000000000000000",
-    "totalRewards": "1088300000000000000000",
-    "timestamp": "1735191996",
-    "previousRewardChain": "0x0d24effbc7e6628c22b99277a302c8985d79cf1a6a04fe4af267459e711bdfb0",
-    "currentRewardChain": "0x48104e7d634da1ee895c4c143d177add693b4499bea0ad0c55e79bf4b6c5046f"
+    "amount": "81830000000000000000",
+    "totalRewards": "1142350000000000000000",
+    "timestamp": "1734165714",
+    "previousRewardChain": "0x4a63e5527b0cd6e2a9ac32539c4803775e0f0c3670dec3c02f95a5f1976252c4",
+    "currentRewardChain": "0xa14d6733132b0279a7cda905c739c0658df6f0bc8ff2f03e28450a7f0c54568c"
   },
   {
-    "amount": "38430000000000000000",
-    "totalRewards": "1126730000000000000000",
-    "timestamp": "1735349703",
-    "previousRewardChain": "0x48104e7d634da1ee895c4c143d177add693b4499bea0ad0c55e79bf4b6c5046f",
-    "currentRewardChain": "0xa96c26c242dfb9a007ed40fe008d3f3f2d468b082905a6281089bcf4599c11bf"
+    "amount": "59270000000000000000",
+    "totalRewards": "1201620000000000000000",
+    "timestamp": "1734194828",
+    "previousRewardChain": "0xa14d6733132b0279a7cda905c739c0658df6f0bc8ff2f03e28450a7f0c54568c",
+    "currentRewardChain": "0x8b05d3ae0505c99594dd6a96967d2159d66ac9f4ddd9dc27870cc8566615b5bc"
   },
   {
-    "amount": "2620000000000000000",
-    "totalRewards": "1129350000000000000000",
-    "timestamp": "1735521989",
-    "previousRewardChain": "0xa96c26c242dfb9a007ed40fe008d3f3f2d468b082905a6281089bcf4599c11bf",
-    "currentRewardChain": "0x4c14547637fe468528c4e54607add1e022a79750f296663ab2bad27e32866261"
+    "amount": "64430000000000000000",
+    "totalRewards": "1266050000000000000000",
+    "timestamp": "1734283289",
+    "previousRewardChain": "0x8b05d3ae0505c99594dd6a96967d2159d66ac9f4ddd9dc27870cc8566615b5bc",
+    "currentRewardChain": "0x21a63b01ffab4fa24e51b2bc06ad8dec297d31856863e7aba98dab6c44e2a1b3"
   },
   {
-    "amount": "3850000000000000000",
-    "totalRewards": "1133200000000000000000",
-    "timestamp": "1735626183",
-    "previousRewardChain": "0x4c14547637fe468528c4e54607add1e022a79750f296663ab2bad27e32866261",
-    "currentRewardChain": "0x56cf3c127941215a860de529dc6daf1cfc5e9700b37ef582695a7b9dde8047af"
+    "amount": "89460000000000000000",
+    "totalRewards": "1355510000000000000000",
+    "timestamp": "1734394742",
+    "previousRewardChain": "0x21a63b01ffab4fa24e51b2bc06ad8dec297d31856863e7aba98dab6c44e2a1b3",
+    "currentRewardChain": "0x84316e14a55a29e2e183e6fe9831d79f7170ec5735644244c41041781c6c594a"
   },
   {
-    "amount": "38950000000000000000",
-    "totalRewards": "1172150000000000000000",
-    "timestamp": "1735660569",
-    "previousRewardChain": "0x56cf3c127941215a860de529dc6daf1cfc5e9700b37ef582695a7b9dde8047af",
-    "currentRewardChain": "0xcacc829ee5405d6e87955eaea4ee6abf464293f45b0af9380f310f80389eafb1"
+    "amount": "96310000000000000000",
+    "totalRewards": "1451820000000000000000",
+    "timestamp": "1734583461",
+    "previousRewardChain": "0x84316e14a55a29e2e183e6fe9831d79f7170ec5735644244c41041781c6c594a",
+    "currentRewardChain": "0xb686c6587d946712e9b3be5880c1e0873dec2f8bb8f7af2e16d750720a101fc0"
   },
   {
-    "amount": "47400000000000000000",
-    "totalRewards": "1219550000000000000000",
-    "timestamp": "1735803501",
-    "previousRewardChain": "0xcacc829ee5405d6e87955eaea4ee6abf464293f45b0af9380f310f80389eafb1",
-    "currentRewardChain": "0xf7a63a6aab2fb7a4c7d05612b6e9c9436c0433578bf6fabdf1bb1754c98577df"
+    "amount": "88330000000000000000",
+    "totalRewards": "1540150000000000000000",
+    "timestamp": "1734641887",
+    "previousRewardChain": "0xb686c6587d946712e9b3be5880c1e0873dec2f8bb8f7af2e16d750720a101fc0",
+    "currentRewardChain": "0x85d848eafa45c00b470125b75980baa533ee443415218b9e33a9c4eb1d1dfcba"
   },
   {
-    "amount": "57730000000000000000",
-    "totalRewards": "1277280000000000000000",
-    "timestamp": "1735891062",
-    "previousRewardChain": "0xf7a63a6aab2fb7a4c7d05612b6e9c9436c0433578bf6fabdf1bb1754c98577df",
-    "currentRewardChain": "0x4ca281d81e9e8da91667ca54deb83ab4caab1747d6ce6fc89d6e3629003db619"
+    "amount": "46060000000000000000",
+    "totalRewards": "1586210000000000000000",
+    "timestamp": "1734715077",
+    "previousRewardChain": "0x85d848eafa45c00b470125b75980baa533ee443415218b9e33a9c4eb1d1dfcba",
+    "currentRewardChain": "0x59fea58ce89891f01a59191917c18653074f61e39da4f6855b691a1f21031d16"
   },
   {
-    "amount": "50860000000000000000",
-    "totalRewards": "1328140000000000000000",
-    "timestamp": "1735974222",
-    "previousRewardChain": "0x4ca281d81e9e8da91667ca54deb83ab4caab1747d6ce6fc89d6e3629003db619",
-    "currentRewardChain": "0x7611221b6a4dbadb3f27ca617c2945f4cf7ee089eb5426a9ad8032ed7e272fbd"
+    "amount": "51840000000000000000",
+    "totalRewards": "1638050000000000000000",
+    "timestamp": "1734822165",
+    "previousRewardChain": "0x59fea58ce89891f01a59191917c18653074f61e39da4f6855b691a1f21031d16",
+    "currentRewardChain": "0xe2f25d9792a5cbdd52d592a5592b9eb64e96869b26962deafc49f22be9e8653d"
   },
   {
-    "amount": "53220000000000000000",
-    "totalRewards": "1381360000000000000000",
-    "timestamp": "1736079738",
-    "previousRewardChain": "0x7611221b6a4dbadb3f27ca617c2945f4cf7ee089eb5426a9ad8032ed7e272fbd",
-    "currentRewardChain": "0xb72b7dddf6f84e74df508095534ff2b3c20800ce07bb16ea8ac0775d9bcd454d"
+    "amount": "45300000000000000000",
+    "totalRewards": "1683350000000000000000",
+    "timestamp": "1734965080",
+    "previousRewardChain": "0xe2f25d9792a5cbdd52d592a5592b9eb64e96869b26962deafc49f22be9e8653d",
+    "currentRewardChain": "0xa64c34d85518d6456822d20313837f49d19900a28c4607de77af82621e23f293"
   },
   {
-    "amount": "17550000000000000000",
-    "totalRewards": "1398910000000000000000",
-    "timestamp": "1736226311",
-    "previousRewardChain": "0xb72b7dddf6f84e74df508095534ff2b3c20800ce07bb16ea8ac0775d9bcd454d",
-    "currentRewardChain": "0xccd50e8ff38b1ae5a1eb0651bcc32d8e168a139a313643b2ac1f4226378446b6"
+    "amount": "62260000000000000000",
+    "totalRewards": "1745610000000000000000",
+    "timestamp": "1734965082",
+    "previousRewardChain": "0xa64c34d85518d6456822d20313837f49d19900a28c4607de77af82621e23f293",
+    "currentRewardChain": "0xd4187884f7046f24990b87468b672437a3bc524014703df17292670d136c7fc9"
   },
   {
-    "amount": "87710000000000000000",
-    "totalRewards": "1486620000000000000000",
-    "timestamp": "1736462591",
-    "previousRewardChain": "0xccd50e8ff38b1ae5a1eb0651bcc32d8e168a139a313643b2ac1f4226378446b6",
-    "currentRewardChain": "0xa3683f786a2b2e196fc2e092e0ebab7eaafa0dbd4c3865f5f1e7de95881bce5e"
+    "amount": "66070000000000000000",
+    "totalRewards": "1811680000000000000000",
+    "timestamp": "1735320295",
+    "previousRewardChain": "0xd4187884f7046f24990b87468b672437a3bc524014703df17292670d136c7fc9",
+    "currentRewardChain": "0x93174bc06f32b08b0a9f824b2847b4e3cbca7f7dbfd78b5acc331b2a2660e89b"
   },
   {
-    "amount": "67060000000000000000",
-    "totalRewards": "1553680000000000000000",
-    "timestamp": "1736589309",
-    "previousRewardChain": "0xa3683f786a2b2e196fc2e092e0ebab7eaafa0dbd4c3865f5f1e7de95881bce5e",
-    "currentRewardChain": "0x9866f4c93ddc8cbde4294a89c1abc870ddcdff00225ddf111cf03f7f207a774e"
+    "amount": "14060000000000000000",
+    "totalRewards": "1825740000000000000000",
+    "timestamp": "1735585409",
+    "previousRewardChain": "0x93174bc06f32b08b0a9f824b2847b4e3cbca7f7dbfd78b5acc331b2a2660e89b",
+    "currentRewardChain": "0x94344ecd2603378c0c2479678279b70e4bc78af88f25406ba6d3f57f7c598aa7"
   },
   {
-    "amount": "1950000000000000000",
-    "totalRewards": "1555630000000000000000",
-    "timestamp": "1736757656",
-    "previousRewardChain": "0x9866f4c93ddc8cbde4294a89c1abc870ddcdff00225ddf111cf03f7f207a774e",
-    "currentRewardChain": "0xd00ac7a2fd884e76765b1f53c35727ed056ce8e5857d075e0892a75d82e96229"
+    "amount": "74890000000000000000",
+    "totalRewards": "1900630000000000000000",
+    "timestamp": "1735641439",
+    "previousRewardChain": "0x94344ecd2603378c0c2479678279b70e4bc78af88f25406ba6d3f57f7c598aa7",
+    "currentRewardChain": "0x07e5f11f516830f8c24834b19d396cde85fde0d78e0eaaed19eb397c00ce4d3b"
   },
   {
-    "amount": "97810000000000000000",
-    "totalRewards": "1653440000000000000000",
-    "timestamp": "1736797334",
-    "previousRewardChain": "0xd00ac7a2fd884e76765b1f53c35727ed056ce8e5857d075e0892a75d82e96229",
-    "currentRewardChain": "0x26d3a41815be676b0adf6ed05afd95eab63b4d8899e03e037f2606a27b9aeae7"
+    "amount": "91370000000000000000",
+    "totalRewards": "1992000000000000000000",
+    "timestamp": "1735711633",
+    "previousRewardChain": "0x07e5f11f516830f8c24834b19d396cde85fde0d78e0eaaed19eb397c00ce4d3b",
+    "currentRewardChain": "0xae54cc62b9af5fb7418f618ce69fa8c6a861671c8d03994d3d3563d307c6fc08"
   },
   {
-    "amount": "66390000000000000000",
-    "totalRewards": "1719830000000000000000",
-    "timestamp": "1736861579",
-    "previousRewardChain": "0x26d3a41815be676b0adf6ed05afd95eab63b4d8899e03e037f2606a27b9aeae7",
-    "currentRewardChain": "0x733b5a4fe91e41ca5966798c1731447780892314d9b6095a4d83114ad4325abe"
+    "amount": "29930000000000000000",
+    "totalRewards": "2021930000000000000000",
+    "timestamp": "1735809306",
+    "previousRewardChain": "0xae54cc62b9af5fb7418f618ce69fa8c6a861671c8d03994d3d3563d307c6fc08",
+    "currentRewardChain": "0x96a8d425452ae1e47492617fc182ada7b62a1b0e8adf3dda9863158f5bfbf5d2"
   },
   {
-    "amount": "79730000000000000000",
-    "totalRewards": "1799560000000000000000",
-    "timestamp": "1736931554",
-    "previousRewardChain": "0x733b5a4fe91e41ca5966798c1731447780892314d9b6095a4d83114ad4325abe",
-    "currentRewardChain": "0xd667626dd2d279a805b8737b6931059393fc39924eb3417f0876322732cd1ec1"
+    "amount": "6730000000000000000",
+    "totalRewards": "2028660000000000000000",
+    "timestamp": "1735904512",
+    "previousRewardChain": "0x96a8d425452ae1e47492617fc182ada7b62a1b0e8adf3dda9863158f5bfbf5d2",
+    "currentRewardChain": "0x8e3b0e9f14bbfcd873236788a8dd6305120caf95107f04e705772265c9c42df3"
   },
   {
-    "amount": "78860000000000000000",
-    "totalRewards": "1878420000000000000000",
-    "timestamp": "1737335638",
-    "previousRewardChain": "0xd667626dd2d279a805b8737b6931059393fc39924eb3417f0876322732cd1ec1",
-    "currentRewardChain": "0xbe237a51c413268498ac904db0c0324f3e241a78e391b9be7c0c36310cf6168f"
+    "amount": "90080000000000000000",
+    "totalRewards": "2118740000000000000000",
+    "timestamp": "1736012446",
+    "previousRewardChain": "0x8e3b0e9f14bbfcd873236788a8dd6305120caf95107f04e705772265c9c42df3",
+    "currentRewardChain": "0x48b8033beb99d74c18fb5204846e541d9d73b628a3cd072db7d39e487bd7bdf9"
+  },
+  {
+    "amount": "11720000000000000000",
+    "totalRewards": "2130460000000000000000",
+    "timestamp": "1736047483",
+    "previousRewardChain": "0x48b8033beb99d74c18fb5204846e541d9d73b628a3cd072db7d39e487bd7bdf9",
+    "currentRewardChain": "0x453a018d05c154d511a75eb8b5e2838ae945e3aac2213e24e878498ac7cb6636"
+  },
+  {
+    "amount": "1960000000000000000",
+    "totalRewards": "2132420000000000000000",
+    "timestamp": "1736127526",
+    "previousRewardChain": "0x453a018d05c154d511a75eb8b5e2838ae945e3aac2213e24e878498ac7cb6636",
+    "currentRewardChain": "0xc97f14063ae5153af645a1123deef61bb2f90c4ca3e5300d94cb78b16a784b0a"
+  },
+  {
+    "amount": "3630000000000000000",
+    "totalRewards": "2136050000000000000000",
+    "timestamp": "1736336946",
+    "previousRewardChain": "0xc97f14063ae5153af645a1123deef61bb2f90c4ca3e5300d94cb78b16a784b0a",
+    "currentRewardChain": "0x8ceed507ca18386d5edc226dc9296bbb086d043fe84fd162ba5599d90b6c1134"
+  },
+  {
+    "amount": "15830000000000000000",
+    "totalRewards": "2151880000000000000000",
+    "timestamp": "1736442262",
+    "previousRewardChain": "0x8ceed507ca18386d5edc226dc9296bbb086d043fe84fd162ba5599d90b6c1134",
+    "currentRewardChain": "0x240077d57be7b8f709c736f3d934b85b67f45d50520ac229aa73c60164ccb7d4"
   }
 ]

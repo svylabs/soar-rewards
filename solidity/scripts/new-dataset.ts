@@ -52,7 +52,7 @@ function bigintToU256Array(value: any) {
     const mask = BigInt("0xFFFFFFFFFFFFFFFF"); // Mask for 64 bits
     const parts = [];
     for (let i = 0; i < 4; i++) {
-        parts.push(Number(value & mask)); // Extract 64 bits as a number
+        parts.push(parseInt((value & mask).toString())); // Extract 64 bits as a number
         value >>= BigInt(64); // Shift right by 64 bits
     }
     return parts;
@@ -336,8 +336,8 @@ async function newDataset() {
                     expectedRewards += (rewardAmount * userStake) / totalSystemStake;
                     userRewardEvents.push({
                         rewardEvent: rewards[rewards.length - 1],
-                        userStake: balances[user].staked,
-                        totalStaked: totalStaked
+                        userStake: userStake,
+                        totalStaked: totalSystemStake
                     });
                 }
                 if (Math.random() < 0.1 && fromRewardChainEvent === undefined && timestampLastStakeChainEvent === BigInt(0)) {
@@ -373,9 +373,21 @@ async function newDataset() {
     claim.user = user;
     if (fromStakeChainEvent !== undefined) {
         claim.fromStakeChainEvent = fromStakeChainEvent;
+        for (let j = 0; j<stakes.length;j++) {
+            if (stakes[j].user === user && stakes[j].timestamp <= fromStakeChainEvent.timestamp) {
+                claim.fromUserStakeChainEvent = stakes[j];
+                fromUserStakeChainEvent = stakes[j];
+            }
+        }
     }
     if (toStakeChainEvent !== undefined) {
         claim.toStakeChainEvent = toStakeChainEvent;
+        for (let j = 0; j<stakes.length;j++) {
+            if (stakes[j].user === user && stakes[j].timestamp <= toStakeChainEvent.timestamp) {
+                claim.toUserStakeChainEvent = stakes[j];
+                toUserStakeChainEvent = stakes[j];
+            }
+        }
     }
     if (fromRewardChainEvent !== undefined) {
         claim.fromRewardChainEvent = fromRewardChainEvent;

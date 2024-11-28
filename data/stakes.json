@@ -1,652 +1,612 @@
 [
   {
-    "user": "0xFABB0ac9d68B0B445fB7357272Ff202C5651694a",
+    "user": "0x71bE63f3384f5fb98995898A86B02Fb2426c5788",
     "isStake": true,
-    "amount": "5990000000000000000",
-    "totalStaked": "5990000000000000000",
-    "totalUserStake": "5990000000000000000",
-    "timestamp": "1732748324",
+    "amount": "1990000000000000000",
+    "totalStaked": "1990000000000000000",
+    "totalUserStake": "1990000000000000000",
+    "timestamp": "1732753664",
     "previousStakeChain": "0x0000000000000000000000000000000000000000000000000000000000000000",
-    "currentStakeChain": "0x3e8ef97c57a879b36448049ef3fbec0afc655f451567f5112a4e769bf7e71d78"
+    "currentStakeChain": "0x1309bdcfa2074cddee18e057ea0c0d6def96cbf02685fdd7efc2cd6940aec62d"
   },
   {
-    "user": "0x90F79bf6EB2c4f870365E785982E1f101E93b906",
+    "user": "0x1CBd3b2770909D4e10f157cABC84C7264073C9Ec",
     "isStake": true,
-    "amount": "2080000000000000000",
-    "totalStaked": "8070000000000000000",
-    "totalUserStake": "2080000000000000000",
-    "timestamp": "1732978794",
-    "previousStakeChain": "0x3e8ef97c57a879b36448049ef3fbec0afc655f451567f5112a4e769bf7e71d78",
-    "currentStakeChain": "0x36c45d120f0ff17859ccb76445f0acf2dc8329eff68bff20432b4c0417e629bb"
-  },
-  {
-    "user": "0xFABB0ac9d68B0B445fB7357272Ff202C5651694a",
-    "isStake": true,
-    "amount": "6450000000000000000",
-    "totalStaked": "14520000000000000000",
-    "totalUserStake": "12440000000000000000",
-    "timestamp": "1733062142",
-    "previousStakeChain": "0x36c45d120f0ff17859ccb76445f0acf2dc8329eff68bff20432b4c0417e629bb",
-    "currentStakeChain": "0xbf0e215e741f92f85b45e50284d1d30d062cebf9aec7c0a9f53967e7882a61df"
-  },
-  {
-    "user": "0x2546BcD3c84621e976D8185a91A922aE77ECEc30",
-    "isStake": true,
-    "amount": "2250000000000000000",
-    "totalStaked": "16770000000000000000",
-    "totalUserStake": "2250000000000000000",
-    "timestamp": "1733145136",
-    "previousStakeChain": "0xbf0e215e741f92f85b45e50284d1d30d062cebf9aec7c0a9f53967e7882a61df",
-    "currentStakeChain": "0x5f8a6dc0b993db5bda3a20d6c3c941d48446fe97edb14d4c3483c3e7e09bd788"
-  },
-  {
-    "user": "0x14dC79964da2C08b23698B3D3cc7Ca32193d9955",
-    "isStake": true,
-    "amount": "2380000000000000000",
-    "totalStaked": "19150000000000000000",
-    "totalUserStake": "2380000000000000000",
-    "timestamp": "1733288750",
-    "previousStakeChain": "0x5f8a6dc0b993db5bda3a20d6c3c941d48446fe97edb14d4c3483c3e7e09bd788",
-    "currentStakeChain": "0xe4e696e58d2fe2708e0b70d1c5fee4f4562b44f315adc990079851445a316d1d"
-  },
-  {
-    "user": "0xdD2FD4581271e230360230F9337D5c0430Bf44C0",
-    "isStake": true,
-    "amount": "6390000000000000000",
-    "totalStaked": "25540000000000000000",
-    "totalUserStake": "6390000000000000000",
-    "timestamp": "1733322519",
-    "previousStakeChain": "0xe4e696e58d2fe2708e0b70d1c5fee4f4562b44f315adc990079851445a316d1d",
-    "currentStakeChain": "0x37aafda1b429f63784cd52e8234711d99abc7f4f6f23c82c72e41b8b0e762a6e"
-  },
-  {
-    "user": "0x15d34AAf54267DB7D7c367839AAf71A00a2C6A65",
-    "isStake": true,
-    "amount": "2270000000000000000",
-    "totalStaked": "27810000000000000000",
-    "totalUserStake": "2270000000000000000",
-    "timestamp": "1733350168",
-    "previousStakeChain": "0x37aafda1b429f63784cd52e8234711d99abc7f4f6f23c82c72e41b8b0e762a6e",
-    "currentStakeChain": "0x333178fbfc515fe474df57d4773a954720ab306c2e320615e8875fc8fd150f9e"
-  },
-  {
-    "user": "0xcd3B766CCDd6AE721141F452C550Ca635964ce71",
-    "isStake": true,
-    "amount": "2290000000000000000",
-    "totalStaked": "30100000000000000000",
-    "totalUserStake": "2290000000000000000",
-    "timestamp": "1733609157",
-    "previousStakeChain": "0x333178fbfc515fe474df57d4773a954720ab306c2e320615e8875fc8fd150f9e",
-    "currentStakeChain": "0x02a7503b9e3a4cbd6155162e5a832719abf13510e97c90e86b7481c28d3bee43"
-  },
-  {
-    "user": "0x23618e81E3f5cdF7f54C3d65f7FBc0aBf5B21E8f",
-    "isStake": true,
-    "amount": "8000000000000000000",
-    "totalStaked": "38100000000000000000",
-    "totalUserStake": "8000000000000000000",
-    "timestamp": "1733688380",
-    "previousStakeChain": "0x02a7503b9e3a4cbd6155162e5a832719abf13510e97c90e86b7481c28d3bee43",
-    "currentStakeChain": "0xf98b132a9c47876f44d15f6ff0683672aae2c98272ce3a33e8f75b1e8c57d642"
+    "amount": "3730000000000000000",
+    "totalStaked": "5720000000000000000",
+    "totalUserStake": "3730000000000000000",
+    "timestamp": "1733047624",
+    "previousStakeChain": "0x1309bdcfa2074cddee18e057ea0c0d6def96cbf02685fdd7efc2cd6940aec62d",
+    "currentStakeChain": "0x4ad8ab84f712f2b90b05bad5392e62c9277875523b1ed2fdc7c258f690f4ef09"
   },
   {
     "user": "0xdF3e18d64BC6A983f673Ab319CCaE4f1a57C7097",
     "isStake": true,
-    "amount": "2380000000000000000",
-    "totalStaked": "40480000000000000000",
-    "totalUserStake": "2380000000000000000",
-    "timestamp": "1733734371",
-    "previousStakeChain": "0xf98b132a9c47876f44d15f6ff0683672aae2c98272ce3a33e8f75b1e8c57d642",
-    "currentStakeChain": "0x332c9e4049d739175ee91716bcbe3bd281a7fec3e2dcdc417752945e4d065011"
+    "amount": "9550000000000000000",
+    "totalStaked": "15270000000000000000",
+    "totalUserStake": "9550000000000000000",
+    "timestamp": "1733126259",
+    "previousStakeChain": "0x4ad8ab84f712f2b90b05bad5392e62c9277875523b1ed2fdc7c258f690f4ef09",
+    "currentStakeChain": "0x5f37c679218234caec5fcd731d4c139e6650cc45f77d9097371d1f619e95292e"
   },
   {
-    "user": "0x976EA74026E726554dB657fA54763abd0C3a0aa9",
+    "user": "0xcd3B766CCDd6AE721141F452C550Ca635964ce71",
     "isStake": true,
-    "amount": "2660000000000000000",
-    "totalStaked": "43140000000000000000",
-    "totalUserStake": "2660000000000000000",
-    "timestamp": "1733762760",
-    "previousStakeChain": "0x332c9e4049d739175ee91716bcbe3bd281a7fec3e2dcdc417752945e4d065011",
-    "currentStakeChain": "0xe8dca87fccbf33990c938cd7ab9dc1c6792d7300f87f76b35ab6713e6eab63e0"
+    "amount": "620000000000000000",
+    "totalStaked": "15890000000000000000",
+    "totalUserStake": "620000000000000000",
+    "timestamp": "1733317608",
+    "previousStakeChain": "0x5f37c679218234caec5fcd731d4c139e6650cc45f77d9097371d1f619e95292e",
+    "currentStakeChain": "0x839f4a0c1a0be01547f49f4189aaacd570fb63f294a1cb17c0570334583e9f60"
+  },
+  {
+    "user": "0x2546BcD3c84621e976D8185a91A922aE77ECEc30",
+    "isStake": true,
+    "amount": "8200000000000000000",
+    "totalStaked": "24090000000000000000",
+    "totalUserStake": "8200000000000000000",
+    "timestamp": "1733397002",
+    "previousStakeChain": "0x839f4a0c1a0be01547f49f4189aaacd570fb63f294a1cb17c0570334583e9f60",
+    "currentStakeChain": "0xe974d0d5c89ef33258f751b5b5c5dc0e369130ec6bbf01e2d3c1882b1054d3e7"
+  },
+  {
+    "user": "0xcd3B766CCDd6AE721141F452C550Ca635964ce71",
+    "isStake": true,
+    "amount": "3850000000000000000",
+    "totalStaked": "27940000000000000000",
+    "totalUserStake": "4470000000000000000",
+    "timestamp": "1733422333",
+    "previousStakeChain": "0xe974d0d5c89ef33258f751b5b5c5dc0e369130ec6bbf01e2d3c1882b1054d3e7",
+    "currentStakeChain": "0xa155a223aa0b5330f6767e00221806e6e4ebcf74ebb966563c86beda854ac2ec"
+  },
+  {
+    "user": "0x2546BcD3c84621e976D8185a91A922aE77ECEc30",
+    "isStake": true,
+    "amount": "7220000000000000000",
+    "totalStaked": "35160000000000000000",
+    "totalUserStake": "15420000000000000000",
+    "timestamp": "1733425723",
+    "previousStakeChain": "0xa155a223aa0b5330f6767e00221806e6e4ebcf74ebb966563c86beda854ac2ec",
+    "currentStakeChain": "0xfe0a5d168e96e8b426676eb2c301b04386cef1d639a6ccc5d2b9624e6b43cb67"
+  },
+  {
+    "user": "0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC",
+    "isStake": true,
+    "amount": "1220000000000000000",
+    "totalStaked": "36380000000000000000",
+    "totalUserStake": "1220000000000000000",
+    "timestamp": "1733461054",
+    "previousStakeChain": "0xfe0a5d168e96e8b426676eb2c301b04386cef1d639a6ccc5d2b9624e6b43cb67",
+    "currentStakeChain": "0x5cb5b7687a8b408010b693b2cdd91fdd2aed68be9e938374d83f13d3f631dda4"
+  },
+  {
+    "user": "0xa0Ee7A142d267C1f36714E4a8F75612F20a79720",
+    "isStake": true,
+    "amount": "3300000000000000000",
+    "totalStaked": "39680000000000000000",
+    "totalUserStake": "3300000000000000000",
+    "timestamp": "1733511164",
+    "previousStakeChain": "0x5cb5b7687a8b408010b693b2cdd91fdd2aed68be9e938374d83f13d3f631dda4",
+    "currentStakeChain": "0xf573df6c6adb9abe552f1fb70e650dbb70596299dc71401b78899ed18d8522a5"
+  },
+  {
+    "user": "0xcd3B766CCDd6AE721141F452C550Ca635964ce71",
+    "isStake": true,
+    "amount": "5660000000000000000",
+    "totalStaked": "45340000000000000000",
+    "totalUserStake": "10130000000000000000",
+    "timestamp": "1733546170",
+    "previousStakeChain": "0xf573df6c6adb9abe552f1fb70e650dbb70596299dc71401b78899ed18d8522a5",
+    "currentStakeChain": "0x1122ce4c191c49555b06cbe1e5e840151548fbddba55be44db52ab34bc602769"
+  },
+  {
+    "user": "0x8626f6940E2eb28930eFb4CeF49B2d1F2C9C1199",
+    "isStake": true,
+    "amount": "1190000000000000000",
+    "totalStaked": "46530000000000000000",
+    "totalUserStake": "1190000000000000000",
+    "timestamp": "1733550446",
+    "previousStakeChain": "0x1122ce4c191c49555b06cbe1e5e840151548fbddba55be44db52ab34bc602769",
+    "currentStakeChain": "0xf1d40f8fadc768ff16c86b831a8269e9e0e3bd0b2796b6c3a5f67ebc342fa36f"
+  },
+  {
+    "user": "0x23618e81E3f5cdF7f54C3d65f7FBc0aBf5B21E8f",
+    "isStake": true,
+    "amount": "3180000000000000000",
+    "totalStaked": "49710000000000000000",
+    "totalUserStake": "3180000000000000000",
+    "timestamp": "1733666823",
+    "previousStakeChain": "0xf1d40f8fadc768ff16c86b831a8269e9e0e3bd0b2796b6c3a5f67ebc342fa36f",
+    "currentStakeChain": "0x5eced0a860733ed41202feb4d5b25fa92f353a55df59e94e37bfaa921e6ac006"
   },
   {
     "user": "0xbDA5747bFD65F08deb54cb465eB87D40e51B197E",
     "isStake": true,
-    "amount": "8010000000000000000",
-    "totalStaked": "51150000000000000000",
-    "totalUserStake": "8010000000000000000",
-    "timestamp": "1733897854",
-    "previousStakeChain": "0xe8dca87fccbf33990c938cd7ab9dc1c6792d7300f87f76b35ab6713e6eab63e0",
-    "currentStakeChain": "0x66129c1fbf1140030ffcde5372a7781d3fccd377a83cfdb48669fcf577557f15"
-  },
-  {
-    "user": "0x976EA74026E726554dB657fA54763abd0C3a0aa9",
-    "isStake": true,
-    "amount": "2090000000000000000",
-    "totalStaked": "53240000000000000000",
-    "totalUserStake": "4750000000000000000",
-    "timestamp": "1733925877",
-    "previousStakeChain": "0x66129c1fbf1140030ffcde5372a7781d3fccd377a83cfdb48669fcf577557f15",
-    "currentStakeChain": "0xdcad1d09c53baabb54cc374586c2da4ed81cef96413a6593012b821c4a281c68"
-  },
-  {
-    "user": "0x8626f6940E2eb28930eFb4CeF49B2d1F2C9C1199",
-    "isStake": true,
-    "amount": "930000000000000000",
-    "totalStaked": "54170000000000000000",
-    "totalUserStake": "930000000000000000",
-    "timestamp": "1733996192",
-    "previousStakeChain": "0xdcad1d09c53baabb54cc374586c2da4ed81cef96413a6593012b821c4a281c68",
-    "currentStakeChain": "0x7a125bb677a126a874405755211944eef0c115d7e43c04105746dae9b245d5a7"
-  },
-  {
-    "user": "0x2546BcD3c84621e976D8185a91A922aE77ECEc30",
-    "isStake": true,
-    "amount": "4100000000000000000",
-    "totalStaked": "58270000000000000000",
-    "totalUserStake": "6350000000000000000",
-    "timestamp": "1734273878",
-    "previousStakeChain": "0x7a125bb677a126a874405755211944eef0c115d7e43c04105746dae9b245d5a7",
-    "currentStakeChain": "0x1411b50c332d253012f14c96cd8c9e3885832caf3886fe2cd58960aa7e3d9d5b"
-  },
-  {
-    "user": "0x14dC79964da2C08b23698B3D3cc7Ca32193d9955",
-    "isStake": true,
-    "amount": "5180000000000000000",
-    "totalStaked": "63450000000000000000",
-    "totalUserStake": "7560000000000000000",
-    "timestamp": "1734315033",
-    "previousStakeChain": "0x1411b50c332d253012f14c96cd8c9e3885832caf3886fe2cd58960aa7e3d9d5b",
-    "currentStakeChain": "0x71582f83225ef169c0264ef27d362a51455f51da060410220cf17262b0b91bc1"
-  },
-  {
-    "user": "0x1CBd3b2770909D4e10f157cABC84C7264073C9Ec",
-    "isStake": true,
-    "amount": "1910000000000000000",
-    "totalStaked": "65360000000000000000",
-    "totalUserStake": "1910000000000000000",
-    "timestamp": "1734334303",
-    "previousStakeChain": "0x71582f83225ef169c0264ef27d362a51455f51da060410220cf17262b0b91bc1",
-    "currentStakeChain": "0xe52c3df4a5f6f14fd7af45933196fec53743192832b7824128f194c530a7c852"
-  },
-  {
-    "user": "0x1CBd3b2770909D4e10f157cABC84C7264073C9Ec",
-    "isStake": true,
-    "amount": "7510000000000000000",
-    "totalStaked": "72870000000000000000",
-    "totalUserStake": "9420000000000000000",
-    "timestamp": "1734375834",
-    "previousStakeChain": "0xe52c3df4a5f6f14fd7af45933196fec53743192832b7824128f194c530a7c852",
-    "currentStakeChain": "0x4bf004a1459622c0b4055d51e4cbdb49efcc8ed4532b23a34fc16b2ae8f3db50"
-  },
-  {
-    "user": "0xcd3B766CCDd6AE721141F452C550Ca635964ce71",
-    "isStake": true,
-    "amount": "1210000000000000000",
-    "totalStaked": "74080000000000000000",
-    "totalUserStake": "3500000000000000000",
-    "timestamp": "1734501146",
-    "previousStakeChain": "0x4bf004a1459622c0b4055d51e4cbdb49efcc8ed4532b23a34fc16b2ae8f3db50",
-    "currentStakeChain": "0x9b4cdd6dec1e0edfdaabd46ff297504d3bbc0a1f22179140518bd23e5e04303b"
-  },
-  {
-    "user": "0x14dC79964da2C08b23698B3D3cc7Ca32193d9955",
-    "isStake": true,
-    "amount": "2710000000000000000",
-    "totalStaked": "76790000000000000000",
-    "totalUserStake": "10270000000000000000",
-    "timestamp": "1734630954",
-    "previousStakeChain": "0x9b4cdd6dec1e0edfdaabd46ff297504d3bbc0a1f22179140518bd23e5e04303b",
-    "currentStakeChain": "0x0f7dc32304f16f9e77be0b4a3c62dadff9a03404f30da02790b5651b689dece4"
-  },
-  {
-    "user": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
-    "isStake": true,
-    "amount": "9210000000000000000",
-    "totalStaked": "86000000000000000000",
-    "totalUserStake": "9210000000000000000",
-    "timestamp": "1734712633",
-    "previousStakeChain": "0x0f7dc32304f16f9e77be0b4a3c62dadff9a03404f30da02790b5651b689dece4",
-    "currentStakeChain": "0xa9f38daa4138cda752be83950184c41f2b5735425bb3d164c4f7c691df1961c2"
-  },
-  {
-    "user": "0xFABB0ac9d68B0B445fB7357272Ff202C5651694a",
-    "isStake": true,
-    "amount": "3600000000000000000",
-    "totalStaked": "89600000000000000000",
-    "totalUserStake": "16040000000000000000",
-    "timestamp": "1734789822",
-    "previousStakeChain": "0xa9f38daa4138cda752be83950184c41f2b5735425bb3d164c4f7c691df1961c2",
-    "currentStakeChain": "0x92fac950a99f20e3cc821c368f96ba3e6eb42e8b95e57b1851b23cb3ac0d44ce"
-  },
-  {
-    "user": "0xFABB0ac9d68B0B445fB7357272Ff202C5651694a",
-    "isStake": false,
-    "amount": "8680000000000000000",
-    "totalStaked": "80920000000000000000",
-    "totalUserStake": "7360000000000000000",
-    "timestamp": "1734805068",
-    "previousStakeChain": "0x92fac950a99f20e3cc821c368f96ba3e6eb42e8b95e57b1851b23cb3ac0d44ce",
-    "currentStakeChain": "0x5fd1c27994a4ec22a376c9a3bb6ba064067e951e56d21e496ea63eac1bd74102"
+    "amount": "1220000000000000000",
+    "totalStaked": "50930000000000000000",
+    "totalUserStake": "1220000000000000000",
+    "timestamp": "1733715306",
+    "previousStakeChain": "0x5eced0a860733ed41202feb4d5b25fa92f353a55df59e94e37bfaa921e6ac006",
+    "currentStakeChain": "0xca512b897d7473c562056215fff0324fbf590190abd3b2f23ae10eeff236e0de"
   },
   {
     "user": "0x9965507D1a55bcC2695C58ba16FB37d819B0A4dc",
     "isStake": true,
-    "amount": "9280000000000000000",
-    "totalStaked": "90200000000000000000",
-    "totalUserStake": "9280000000000000000",
-    "timestamp": "1734805666",
-    "previousStakeChain": "0x5fd1c27994a4ec22a376c9a3bb6ba064067e951e56d21e496ea63eac1bd74102",
-    "currentStakeChain": "0xeb88377e2a21c41f7f5ca01b3881ffe316fc2bff5ee9a40e9ce548c06bed0e15"
+    "amount": "6290000000000000000",
+    "totalStaked": "57220000000000000000",
+    "totalUserStake": "6290000000000000000",
+    "timestamp": "1733756509",
+    "previousStakeChain": "0xca512b897d7473c562056215fff0324fbf590190abd3b2f23ae10eeff236e0de",
+    "currentStakeChain": "0xc14ed8746278d90271bda8bcb235435adb82fd12723e130a080bcc599e590056"
   },
   {
-    "user": "0x976EA74026E726554dB657fA54763abd0C3a0aa9",
+    "user": "0xBcd4042DE499D14e55001CcbB24a551F3b954096",
     "isStake": true,
-    "amount": "8110000000000000000",
-    "totalStaked": "98310000000000000000",
-    "totalUserStake": "12860000000000000000",
-    "timestamp": "1734873580",
-    "previousStakeChain": "0xeb88377e2a21c41f7f5ca01b3881ffe316fc2bff5ee9a40e9ce548c06bed0e15",
-    "currentStakeChain": "0x3eb4f31b2eb911a1cbfec4eeab47ff4dab89ed787825534921d8cb46e0e558e0"
-  },
-  {
-    "user": "0x2546BcD3c84621e976D8185a91A922aE77ECEc30",
-    "isStake": true,
-    "amount": "8400000000000000000",
-    "totalStaked": "106710000000000000000",
-    "totalUserStake": "14750000000000000000",
-    "timestamp": "1734939024",
-    "previousStakeChain": "0x3eb4f31b2eb911a1cbfec4eeab47ff4dab89ed787825534921d8cb46e0e558e0",
-    "currentStakeChain": "0x0a09d920804eaca9daef4e3badfdaed23ccf008561a9f44341ba809848c0ac1a"
-  },
-  {
-    "user": "0xdD2FD4581271e230360230F9337D5c0430Bf44C0",
-    "isStake": true,
-    "amount": "4700000000000000000",
-    "totalStaked": "111410000000000000000",
-    "totalUserStake": "11090000000000000000",
-    "timestamp": "1735091154",
-    "previousStakeChain": "0x0a09d920804eaca9daef4e3badfdaed23ccf008561a9f44341ba809848c0ac1a",
-    "currentStakeChain": "0xb429df86f16f7ae9ec8f4c1bc1b24bc723783b4226b0286d8e402e1701646531"
-  },
-  {
-    "user": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
-    "isStake": true,
-    "amount": "3040000000000000000",
-    "totalStaked": "114450000000000000000",
-    "totalUserStake": "12250000000000000000",
-    "timestamp": "1735098262",
-    "previousStakeChain": "0xb429df86f16f7ae9ec8f4c1bc1b24bc723783b4226b0286d8e402e1701646531",
-    "currentStakeChain": "0x9414b7815acd9fcdf385b9a22180785a3d04ef8c1c56c09bd9d2d9e8bc3bb047"
-  },
-  {
-    "user": "0x15d34AAf54267DB7D7c367839AAf71A00a2C6A65",
-    "isStake": true,
-    "amount": "8260000000000000000",
-    "totalStaked": "122710000000000000000",
-    "totalUserStake": "10530000000000000000",
-    "timestamp": "1735157754",
-    "previousStakeChain": "0x9414b7815acd9fcdf385b9a22180785a3d04ef8c1c56c09bd9d2d9e8bc3bb047",
-    "currentStakeChain": "0x00cfeac57ef558908e81a366315ccace65386d36d20c632ef637ff7a73380308"
-  },
-  {
-    "user": "0x2546BcD3c84621e976D8185a91A922aE77ECEc30",
-    "isStake": true,
-    "amount": "8810000000000000000",
-    "totalStaked": "131520000000000000000",
-    "totalUserStake": "23560000000000000000",
-    "timestamp": "1735185571",
-    "previousStakeChain": "0x00cfeac57ef558908e81a366315ccace65386d36d20c632ef637ff7a73380308",
-    "currentStakeChain": "0xa5d3da6a8cc8f10888c3b0eace8898ad50e4e8c6e4663380e4b5159990676145"
-  },
-  {
-    "user": "0xcd3B766CCDd6AE721141F452C550Ca635964ce71",
-    "isStake": true,
-    "amount": "7790000000000000000",
-    "totalStaked": "139310000000000000000",
-    "totalUserStake": "11290000000000000000",
-    "timestamp": "1735239695",
-    "previousStakeChain": "0xa5d3da6a8cc8f10888c3b0eace8898ad50e4e8c6e4663380e4b5159990676145",
-    "currentStakeChain": "0x692b4d92833c3dcc27472041f231ced1176047d06dfc402331d3e01c06636929"
-  },
-  {
-    "user": "0x90F79bf6EB2c4f870365E785982E1f101E93b906",
-    "isStake": true,
-    "amount": "8090000000000000000",
-    "totalStaked": "147400000000000000000",
-    "totalUserStake": "10170000000000000000",
-    "timestamp": "1735280923",
-    "previousStakeChain": "0x692b4d92833c3dcc27472041f231ced1176047d06dfc402331d3e01c06636929",
-    "currentStakeChain": "0x7faa5f998ca5e063ba825df18a0d94984451a478ae86518b180076cbfc90565f"
-  },
-  {
-    "user": "0x976EA74026E726554dB657fA54763abd0C3a0aa9",
-    "isStake": false,
-    "amount": "4110000000000000000",
-    "totalStaked": "143290000000000000000",
-    "totalUserStake": "8750000000000000000",
-    "timestamp": "1735379777",
-    "previousStakeChain": "0x7faa5f998ca5e063ba825df18a0d94984451a478ae86518b180076cbfc90565f",
-    "currentStakeChain": "0x2aca4b2a46085e183ba3083c2a9a0e26a9c5345d8c9bff2a15251250ed57d3d5"
-  },
-  {
-    "user": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
-    "isStake": true,
-    "amount": "1680000000000000000",
-    "totalStaked": "144970000000000000000",
-    "totalUserStake": "13930000000000000000",
-    "timestamp": "1735412345",
-    "previousStakeChain": "0x2aca4b2a46085e183ba3083c2a9a0e26a9c5345d8c9bff2a15251250ed57d3d5",
-    "currentStakeChain": "0xfefb200c46893f6a2725a7950155180c52fad3fda21e10fd74bf36944a875e04"
-  },
-  {
-    "user": "0x2546BcD3c84621e976D8185a91A922aE77ECEc30",
-    "isStake": false,
-    "amount": "6850000000000000000",
-    "totalStaked": "138120000000000000000",
-    "totalUserStake": "16710000000000000000",
-    "timestamp": "1735437354",
-    "previousStakeChain": "0xfefb200c46893f6a2725a7950155180c52fad3fda21e10fd74bf36944a875e04",
-    "currentStakeChain": "0x4b822c9eaf8027d7eb8e3e21fd943933e5631b935c1f4e89d0965f049b134152"
-  },
-  {
-    "user": "0xa0Ee7A142d267C1f36714E4a8F75612F20a79720",
-    "isStake": true,
-    "amount": "810000000000000000",
-    "totalStaked": "138930000000000000000",
-    "totalUserStake": "810000000000000000",
-    "timestamp": "1735497237",
-    "previousStakeChain": "0x4b822c9eaf8027d7eb8e3e21fd943933e5631b935c1f4e89d0965f049b134152",
-    "currentStakeChain": "0x0027a47d7f024e7d221dfbf296fa2890e76c2c59132793d2abd3995ccba67c5f"
-  },
-  {
-    "user": "0xFABB0ac9d68B0B445fB7357272Ff202C5651694a",
-    "isStake": false,
-    "amount": "370000000000000000",
-    "totalStaked": "138560000000000000000",
-    "totalUserStake": "6990000000000000000",
-    "timestamp": "1735511039",
-    "previousStakeChain": "0x0027a47d7f024e7d221dfbf296fa2890e76c2c59132793d2abd3995ccba67c5f",
-    "currentStakeChain": "0xa4b90b043636784ce8c78bf57b3dccff0b3437f9264b4d984cd56f5686bfb95f"
+    "amount": "5760000000000000000",
+    "totalStaked": "62980000000000000000",
+    "totalUserStake": "5760000000000000000",
+    "timestamp": "1733928714",
+    "previousStakeChain": "0xc14ed8746278d90271bda8bcb235435adb82fd12723e130a080bcc599e590056",
+    "currentStakeChain": "0x97903c485462f8734098f78c9007868f0d311924c47471c5140f08c6cfba3a7b"
   },
   {
     "user": "0x14dC79964da2C08b23698B3D3cc7Ca32193d9955",
-    "isStake": false,
-    "amount": "4520000000000000000",
-    "totalStaked": "134040000000000000000",
-    "totalUserStake": "5750000000000000000",
-    "timestamp": "1735540514",
-    "previousStakeChain": "0xa4b90b043636784ce8c78bf57b3dccff0b3437f9264b4d984cd56f5686bfb95f",
-    "currentStakeChain": "0xe119e0511791ccf309e341bc7b77aece56ce4bb4dc468ad5d725175bdfbabb50"
-  },
-  {
-    "user": "0x23618e81E3f5cdF7f54C3d65f7FBc0aBf5B21E8f",
     "isStake": true,
-    "amount": "1980000000000000000",
-    "totalStaked": "136020000000000000000",
-    "totalUserStake": "9980000000000000000",
-    "timestamp": "1735603903",
-    "previousStakeChain": "0xe119e0511791ccf309e341bc7b77aece56ce4bb4dc468ad5d725175bdfbabb50",
-    "currentStakeChain": "0xc12d63e2f55c30ab844ed780d05940b7e1d1b34a9837eea2e4b21f0037bbc5d2"
+    "amount": "7590000000000000000",
+    "totalStaked": "70570000000000000000",
+    "totalUserStake": "7590000000000000000",
+    "timestamp": "1734029239",
+    "previousStakeChain": "0x97903c485462f8734098f78c9007868f0d311924c47471c5140f08c6cfba3a7b",
+    "currentStakeChain": "0xce9a567549be4f758dce32808915448e2d35f9eee1e68d14bd29e6dfc1743d1a"
   },
   {
-    "user": "0x1CBd3b2770909D4e10f157cABC84C7264073C9Ec",
+    "user": "0xcd3B766CCDd6AE721141F452C550Ca635964ce71",
     "isStake": false,
-    "amount": "2050000000000000000",
-    "totalStaked": "133970000000000000000",
-    "totalUserStake": "7370000000000000000",
-    "timestamp": "1735618979",
-    "previousStakeChain": "0xc12d63e2f55c30ab844ed780d05940b7e1d1b34a9837eea2e4b21f0037bbc5d2",
-    "currentStakeChain": "0xbff0a256e0ebf1cd09ea22f71f4c47094d754133a59b0d1d259d45b7a9754041"
-  },
-  {
-    "user": "0x976EA74026E726554dB657fA54763abd0C3a0aa9",
-    "isStake": true,
-    "amount": "9290000000000000000",
-    "totalStaked": "143260000000000000000",
-    "totalUserStake": "18040000000000000000",
-    "timestamp": "1735702703",
-    "previousStakeChain": "0xbff0a256e0ebf1cd09ea22f71f4c47094d754133a59b0d1d259d45b7a9754041",
-    "currentStakeChain": "0x43c82ac298fc417d331ecbacfa109b4e19f3c1eedc4ae1f98da91b9b1f048c12"
-  },
-  {
-    "user": "0xdD2FD4581271e230360230F9337D5c0430Bf44C0",
-    "isStake": false,
-    "amount": "5790000000000000000",
-    "totalStaked": "137470000000000000000",
-    "totalUserStake": "5300000000000000000",
-    "timestamp": "1735716543",
-    "previousStakeChain": "0x43c82ac298fc417d331ecbacfa109b4e19f3c1eedc4ae1f98da91b9b1f048c12",
-    "currentStakeChain": "0x5fd34457870970656885b11b9cb266098486b17f87fe3627691c99497d828338"
-  },
-  {
-    "user": "0x2546BcD3c84621e976D8185a91A922aE77ECEc30",
-    "isStake": false,
-    "amount": "2450000000000000000",
-    "totalStaked": "135020000000000000000",
-    "totalUserStake": "14260000000000000000",
-    "timestamp": "1735784730",
-    "previousStakeChain": "0x5fd34457870970656885b11b9cb266098486b17f87fe3627691c99497d828338",
-    "currentStakeChain": "0x3b70cbe3edb86b0d575b6b950e6d84d112b5d9ab25af6701bfe3955d57fea29a"
+    "amount": "6110000000000000000",
+    "totalStaked": "64460000000000000000",
+    "totalUserStake": "4020000000000000000",
+    "timestamp": "1734062856",
+    "previousStakeChain": "0xce9a567549be4f758dce32808915448e2d35f9eee1e68d14bd29e6dfc1743d1a",
+    "currentStakeChain": "0x3f6151e142986988464d3047630f26a7388787f53da6d67b94d9e4dd20b32607"
   },
   {
     "user": "0xdF3e18d64BC6A983f673Ab319CCaE4f1a57C7097",
     "isStake": true,
-    "amount": "4880000000000000000",
-    "totalStaked": "139900000000000000000",
-    "totalUserStake": "7260000000000000000",
-    "timestamp": "1735828148",
-    "previousStakeChain": "0x3b70cbe3edb86b0d575b6b950e6d84d112b5d9ab25af6701bfe3955d57fea29a",
-    "currentStakeChain": "0xa3a4000b93d5a6dd27e73e215670eb04f12a9b22f4fa2dfd98f4f21133d95722"
-  },
-  {
-    "user": "0xdD2FD4581271e230360230F9337D5c0430Bf44C0",
-    "isStake": false,
-    "amount": "750000000000000000",
-    "totalStaked": "139150000000000000000",
-    "totalUserStake": "4550000000000000000",
-    "timestamp": "1736009962",
-    "previousStakeChain": "0xa3a4000b93d5a6dd27e73e215670eb04f12a9b22f4fa2dfd98f4f21133d95722",
-    "currentStakeChain": "0x79e48fb592baf981947e13c947c9a5d3297d00f2c58f465772055dc81de40b3f"
-  },
-  {
-    "user": "0x976EA74026E726554dB657fA54763abd0C3a0aa9",
-    "isStake": true,
-    "amount": "9170000000000000000",
-    "totalStaked": "148320000000000000000",
-    "totalUserStake": "27210000000000000000",
-    "timestamp": "1736152174",
-    "previousStakeChain": "0x79e48fb592baf981947e13c947c9a5d3297d00f2c58f465772055dc81de40b3f",
-    "currentStakeChain": "0xb88a0da24ddb80d1ebdfaf616d199cdaa126f550859b1f2925d33e4e7117faf5"
-  },
-  {
-    "user": "0xa0Ee7A142d267C1f36714E4a8F75612F20a79720",
-    "isStake": true,
-    "amount": "7460000000000000000",
-    "totalStaked": "155780000000000000000",
-    "totalUserStake": "8270000000000000000",
-    "timestamp": "1736231347",
-    "previousStakeChain": "0xb88a0da24ddb80d1ebdfaf616d199cdaa126f550859b1f2925d33e4e7117faf5",
-    "currentStakeChain": "0x86e43eefd255f63018e9b472cf6625074d48721a693823b6669009e7956add36"
-  },
-  {
-    "user": "0x976EA74026E726554dB657fA54763abd0C3a0aa9",
-    "isStake": true,
-    "amount": "1410000000000000000",
-    "totalStaked": "157190000000000000000",
-    "totalUserStake": "28620000000000000000",
-    "timestamp": "1736269927",
-    "previousStakeChain": "0x86e43eefd255f63018e9b472cf6625074d48721a693823b6669009e7956add36",
-    "currentStakeChain": "0x67a7784b5402fca79a617fc0f4dff5bcebf5691f1e6750e94915a08b50bf20a0"
-  },
-  {
-    "user": "0xFABB0ac9d68B0B445fB7357272Ff202C5651694a",
-    "isStake": false,
-    "amount": "3980000000000000000",
-    "totalStaked": "153210000000000000000",
-    "totalUserStake": "3010000000000000000",
-    "timestamp": "1736290844",
-    "previousStakeChain": "0x67a7784b5402fca79a617fc0f4dff5bcebf5691f1e6750e94915a08b50bf20a0",
-    "currentStakeChain": "0x1428c4f42d179ab5b4dd16471a8c606eb6127a4b9eb436a79dc1debf3f0a8a5a"
-  },
-  {
-    "user": "0x90F79bf6EB2c4f870365E785982E1f101E93b906",
-    "isStake": true,
-    "amount": "990000000000000000",
-    "totalStaked": "154200000000000000000",
-    "totalUserStake": "11160000000000000000",
-    "timestamp": "1736375181",
-    "previousStakeChain": "0x1428c4f42d179ab5b4dd16471a8c606eb6127a4b9eb436a79dc1debf3f0a8a5a",
-    "currentStakeChain": "0xffa9ad129f458faf0c72ed5f7dd16048d99b7c022602e410c3d88d00bc8359f4"
-  },
-  {
-    "user": "0x15d34AAf54267DB7D7c367839AAf71A00a2C6A65",
-    "isStake": false,
-    "amount": "4640000000000000000",
-    "totalStaked": "149560000000000000000",
-    "totalUserStake": "5890000000000000000",
-    "timestamp": "1736380131",
-    "previousStakeChain": "0xffa9ad129f458faf0c72ed5f7dd16048d99b7c022602e410c3d88d00bc8359f4",
-    "currentStakeChain": "0xe1856c2d650466710d3b4125139f6f5d8bfe48c29e9ca1774bd7cb88393608fe"
-  },
-  {
-    "user": "0x23618e81E3f5cdF7f54C3d65f7FBc0aBf5B21E8f",
-    "isStake": true,
-    "amount": "4810000000000000000",
-    "totalStaked": "154370000000000000000",
-    "totalUserStake": "14790000000000000000",
-    "timestamp": "1736399038",
-    "previousStakeChain": "0xe1856c2d650466710d3b4125139f6f5d8bfe48c29e9ca1774bd7cb88393608fe",
-    "currentStakeChain": "0x4c3ca24685ee5b3b1ddba52f393d1bb5c27e501e9f84eef9b482b601452d6cd8"
-  },
-  {
-    "user": "0x14dC79964da2C08b23698B3D3cc7Ca32193d9955",
-    "isStake": true,
-    "amount": "1190000000000000000",
-    "totalStaked": "155560000000000000000",
-    "totalUserStake": "6940000000000000000",
-    "timestamp": "1736494197",
-    "previousStakeChain": "0x4c3ca24685ee5b3b1ddba52f393d1bb5c27e501e9f84eef9b482b601452d6cd8",
-    "currentStakeChain": "0xec75ead056d319b0d7fac886535559087359c2a4e84e74070b3a9a841816f58f"
-  },
-  {
-    "user": "0x9965507D1a55bcC2695C58ba16FB37d819B0A4dc",
-    "isStake": false,
-    "amount": "7270000000000000000",
-    "totalStaked": "148290000000000000000",
-    "totalUserStake": "2010000000000000000",
-    "timestamp": "1736530221",
-    "previousStakeChain": "0xec75ead056d319b0d7fac886535559087359c2a4e84e74070b3a9a841816f58f",
-    "currentStakeChain": "0xe12c3b914150593df091e1d99fb1d7dbd1ed097c958bb42b9b6da286be516103"
-  },
-  {
-    "user": "0x1CBd3b2770909D4e10f157cABC84C7264073C9Ec",
-    "isStake": true,
-    "amount": "4410000000000000000",
-    "totalStaked": "152700000000000000000",
-    "totalUserStake": "11780000000000000000",
-    "timestamp": "1736550154",
-    "previousStakeChain": "0xe12c3b914150593df091e1d99fb1d7dbd1ed097c958bb42b9b6da286be516103",
-    "currentStakeChain": "0xd93e784f594c842d1dfc94d4e817fd5c883ea01b22346b44aedfc8668381eafd"
+    "amount": "3280000000000000000",
+    "totalStaked": "67740000000000000000",
+    "totalUserStake": "12830000000000000000",
+    "timestamp": "1734094213",
+    "previousStakeChain": "0x3f6151e142986988464d3047630f26a7388787f53da6d67b94d9e4dd20b32607",
+    "currentStakeChain": "0x83cbbc522ed7892620a1b7e77cb8631904049c623929fbe44337174e5a372123"
   },
   {
     "user": "0x8626f6940E2eb28930eFb4CeF49B2d1F2C9C1199",
     "isStake": true,
-    "amount": "5580000000000000000",
-    "totalStaked": "158280000000000000000",
-    "totalUserStake": "6510000000000000000",
-    "timestamp": "1736601628",
-    "previousStakeChain": "0xd93e784f594c842d1dfc94d4e817fd5c883ea01b22346b44aedfc8668381eafd",
-    "currentStakeChain": "0x88b1741b9f769665edb45c66e3a3a7ee689cf5c3424a56a834a06f6e9c03ac7b"
+    "amount": "3770000000000000000",
+    "totalStaked": "71510000000000000000",
+    "totalUserStake": "4960000000000000000",
+    "timestamp": "1734126176",
+    "previousStakeChain": "0x83cbbc522ed7892620a1b7e77cb8631904049c623929fbe44337174e5a372123",
+    "currentStakeChain": "0xb6f1d9fe22c4c2466c679bf4a98d6a4033a78691731dac800608a003b6e0bac9"
+  },
+  {
+    "user": "0xdF3e18d64BC6A983f673Ab319CCaE4f1a57C7097",
+    "isStake": false,
+    "amount": "200000000000000000",
+    "totalStaked": "71310000000000000000",
+    "totalUserStake": "12630000000000000000",
+    "timestamp": "1734246418",
+    "previousStakeChain": "0xb6f1d9fe22c4c2466c679bf4a98d6a4033a78691731dac800608a003b6e0bac9",
+    "currentStakeChain": "0x16e5f2f933d0233be6973e031906b8aab0e9ca06cdf1c7a46e464a2a070f3bec"
+  },
+  {
+    "user": "0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC",
+    "isStake": true,
+    "amount": "2500000000000000000",
+    "totalStaked": "73810000000000000000",
+    "totalUserStake": "3720000000000000000",
+    "timestamp": "1734359867",
+    "previousStakeChain": "0x16e5f2f933d0233be6973e031906b8aab0e9ca06cdf1c7a46e464a2a070f3bec",
+    "currentStakeChain": "0x38ec5e54f9d335099c1bab2b505c45624a963a21ff6c08d08d1af1e8b7c2e5aa"
+  },
+  {
+    "user": "0xbDA5747bFD65F08deb54cb465eB87D40e51B197E",
+    "isStake": true,
+    "amount": "8020000000000000000",
+    "totalStaked": "81830000000000000000",
+    "totalUserStake": "9240000000000000000",
+    "timestamp": "1734398409",
+    "previousStakeChain": "0x38ec5e54f9d335099c1bab2b505c45624a963a21ff6c08d08d1af1e8b7c2e5aa",
+    "currentStakeChain": "0xb6fbb0b0534b13e0b7535cdf6e0089fa7f875aa84d5a388c59b2f9c4fff5e63d"
+  },
+  {
+    "user": "0xbDA5747bFD65F08deb54cb465eB87D40e51B197E",
+    "isStake": false,
+    "amount": "730000000000000000",
+    "totalStaked": "81100000000000000000",
+    "totalUserStake": "8510000000000000000",
+    "timestamp": "1734436181",
+    "previousStakeChain": "0xb6fbb0b0534b13e0b7535cdf6e0089fa7f875aa84d5a388c59b2f9c4fff5e63d",
+    "currentStakeChain": "0xa5e79bffd66a4f37cb93e1c584039f98cd9a88b9c646bbbea1af9735e7fe9efc"
   },
   {
     "user": "0x2546BcD3c84621e976D8185a91A922aE77ECEc30",
     "isStake": true,
-    "amount": "7160000000000000000",
-    "totalStaked": "165440000000000000000",
-    "totalUserStake": "21420000000000000000",
-    "timestamp": "1736674411",
-    "previousStakeChain": "0x88b1741b9f769665edb45c66e3a3a7ee689cf5c3424a56a834a06f6e9c03ac7b",
-    "currentStakeChain": "0xcb0e0f7e7a91a4b10c1d664b0ae25bd333699329713cff4f1f41b32ffe7595a1"
+    "amount": "1890000000000000000",
+    "totalStaked": "82990000000000000000",
+    "totalUserStake": "17310000000000000000",
+    "timestamp": "1734475003",
+    "previousStakeChain": "0xa5e79bffd66a4f37cb93e1c584039f98cd9a88b9c646bbbea1af9735e7fe9efc",
+    "currentStakeChain": "0xc263afaaca8e154c4e628031814ea5936b3f9ced2e701a2259cbd5f4151ff896"
+  },
+  {
+    "user": "0x90F79bf6EB2c4f870365E785982E1f101E93b906",
+    "isStake": true,
+    "amount": "8650000000000000000",
+    "totalStaked": "91640000000000000000",
+    "totalUserStake": "8650000000000000000",
+    "timestamp": "1734507513",
+    "previousStakeChain": "0xc263afaaca8e154c4e628031814ea5936b3f9ced2e701a2259cbd5f4151ff896",
+    "currentStakeChain": "0xc0426718432e1c993ac43f0b4fdc8bc90c73f8d54a719fd7cd151330027bceb7"
+  },
+  {
+    "user": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+    "isStake": true,
+    "amount": "7860000000000000000",
+    "totalStaked": "99500000000000000000",
+    "totalUserStake": "7860000000000000000",
+    "timestamp": "1734622928",
+    "previousStakeChain": "0xc0426718432e1c993ac43f0b4fdc8bc90c73f8d54a719fd7cd151330027bceb7",
+    "currentStakeChain": "0x657276d3f7dc28cc63028b547b23755cb5fdae325e0066fc848331d7d642c55b"
+  },
+  {
+    "user": "0x1CBd3b2770909D4e10f157cABC84C7264073C9Ec",
+    "isStake": true,
+    "amount": "7900000000000000000",
+    "totalStaked": "107400000000000000000",
+    "totalUserStake": "11630000000000000000",
+    "timestamp": "1734692811",
+    "previousStakeChain": "0x657276d3f7dc28cc63028b547b23755cb5fdae325e0066fc848331d7d642c55b",
+    "currentStakeChain": "0x4949d1ae518ee28ea3e889bf820ed7dce66daa821f3d787767c83672930d8080"
+  },
+  {
+    "user": "0x23618e81E3f5cdF7f54C3d65f7FBc0aBf5B21E8f",
+    "isStake": false,
+    "amount": "690000000000000000",
+    "totalStaked": "106710000000000000000",
+    "totalUserStake": "2490000000000000000",
+    "timestamp": "1734778708",
+    "previousStakeChain": "0x4949d1ae518ee28ea3e889bf820ed7dce66daa821f3d787767c83672930d8080",
+    "currentStakeChain": "0xb4115d56399f80f42fe64ff4b1051d0cec8e3574c30c5409bb6b4c0a53d9d90c"
+  },
+  {
+    "user": "0x15d34AAf54267DB7D7c367839AAf71A00a2C6A65",
+    "isStake": true,
+    "amount": "4220000000000000000",
+    "totalStaked": "110930000000000000000",
+    "totalUserStake": "4220000000000000000",
+    "timestamp": "1734830659",
+    "previousStakeChain": "0xb4115d56399f80f42fe64ff4b1051d0cec8e3574c30c5409bb6b4c0a53d9d90c",
+    "currentStakeChain": "0xbfb2b6ae579342e94aaa3cbc500cba45d91193ab8ec629219a4de4d42b7bb2e7"
+  },
+  {
+    "user": "0x2546BcD3c84621e976D8185a91A922aE77ECEc30",
+    "isStake": true,
+    "amount": "5310000000000000000",
+    "totalStaked": "116240000000000000000",
+    "totalUserStake": "22620000000000000000",
+    "timestamp": "1734882769",
+    "previousStakeChain": "0xbfb2b6ae579342e94aaa3cbc500cba45d91193ab8ec629219a4de4d42b7bb2e7",
+    "currentStakeChain": "0x7b22ab8026192feef2553966db464c3a8464a3e19f7503d4db272cb0e0c7f3eb"
+  },
+  {
+    "user": "0x90F79bf6EB2c4f870365E785982E1f101E93b906",
+    "isStake": true,
+    "amount": "2300000000000000000",
+    "totalStaked": "118540000000000000000",
+    "totalUserStake": "10950000000000000000",
+    "timestamp": "1734940626",
+    "previousStakeChain": "0x7b22ab8026192feef2553966db464c3a8464a3e19f7503d4db272cb0e0c7f3eb",
+    "currentStakeChain": "0xd7ef2fd3fea018610ee3ffdf4f11cea0a56ea37719383705262240eb59d6d80d"
+  },
+  {
+    "user": "0xa0Ee7A142d267C1f36714E4a8F75612F20a79720",
+    "isStake": false,
+    "amount": "3220000000000000000",
+    "totalStaked": "115320000000000000000",
+    "totalUserStake": "80000000000000000",
+    "timestamp": "1735117937",
+    "previousStakeChain": "0xd7ef2fd3fea018610ee3ffdf4f11cea0a56ea37719383705262240eb59d6d80d",
+    "currentStakeChain": "0x410f87209a7abbe70297edf1745e7e05875b8de2e52365e4d6eb637927405c71"
+  },
+  {
+    "user": "0xBcd4042DE499D14e55001CcbB24a551F3b954096",
+    "isStake": false,
+    "amount": "4110000000000000000",
+    "totalStaked": "111210000000000000000",
+    "totalUserStake": "1650000000000000000",
+    "timestamp": "1735199497",
+    "previousStakeChain": "0x410f87209a7abbe70297edf1745e7e05875b8de2e52365e4d6eb637927405c71",
+    "currentStakeChain": "0x8207794e76933248b3f6b0bb835a291d2a13bbf56d03b56b5fb5ef704c8f6a7b"
+  },
+  {
+    "user": "0x23618e81E3f5cdF7f54C3d65f7FBc0aBf5B21E8f",
+    "isStake": true,
+    "amount": "1040000000000000000",
+    "totalStaked": "112250000000000000000",
+    "totalUserStake": "3530000000000000000",
+    "timestamp": "1735207432",
+    "previousStakeChain": "0x8207794e76933248b3f6b0bb835a291d2a13bbf56d03b56b5fb5ef704c8f6a7b",
+    "currentStakeChain": "0xdfee7909053662becf8e9ed4ed24e7239671806f78aee3a4c2fcaebbfc9f9a6b"
   },
   {
     "user": "0x71bE63f3384f5fb98995898A86B02Fb2426c5788",
     "isStake": true,
-    "amount": "1590000000000000000",
-    "totalStaked": "167030000000000000000",
-    "totalUserStake": "1590000000000000000",
-    "timestamp": "1736739803",
-    "previousStakeChain": "0xcb0e0f7e7a91a4b10c1d664b0ae25bd333699329713cff4f1f41b32ffe7595a1",
-    "currentStakeChain": "0x523405c6e7b26dcd04663bd79c18b2b054aaa7ec2151bb70a0a416cc1d72ee60"
+    "amount": "9170000000000000000",
+    "totalStaked": "121420000000000000000",
+    "totalUserStake": "11160000000000000000",
+    "timestamp": "1735263253",
+    "previousStakeChain": "0xdfee7909053662becf8e9ed4ed24e7239671806f78aee3a4c2fcaebbfc9f9a6b",
+    "currentStakeChain": "0x24685c2501fc86f1905ce56611c7446a276a139c5151a0e16c1adffecd304552"
+  },
+  {
+    "user": "0x9965507D1a55bcC2695C58ba16FB37d819B0A4dc",
+    "isStake": true,
+    "amount": "9760000000000000000",
+    "totalStaked": "131180000000000000000",
+    "totalUserStake": "16050000000000000000",
+    "timestamp": "1735287664",
+    "previousStakeChain": "0x24685c2501fc86f1905ce56611c7446a276a139c5151a0e16c1adffecd304552",
+    "currentStakeChain": "0xf4c8f3a71837328145e963c88a160e658ba54d1859b6e8d133c12c8b1dcf68bc"
+  },
+  {
+    "user": "0xa0Ee7A142d267C1f36714E4a8F75612F20a79720",
+    "isStake": true,
+    "amount": "3100000000000000000",
+    "totalStaked": "134280000000000000000",
+    "totalUserStake": "3180000000000000000",
+    "timestamp": "1735298270",
+    "previousStakeChain": "0xf4c8f3a71837328145e963c88a160e658ba54d1859b6e8d133c12c8b1dcf68bc",
+    "currentStakeChain": "0x14a1cfe8bfb9aecd350729e26ddb5a420fc5c05f459904f31881d6c07702cdd0"
+  },
+  {
+    "user": "0xa0Ee7A142d267C1f36714E4a8F75612F20a79720",
+    "isStake": true,
+    "amount": "3750000000000000000",
+    "totalStaked": "138030000000000000000",
+    "totalUserStake": "6930000000000000000",
+    "timestamp": "1735384247",
+    "previousStakeChain": "0x14a1cfe8bfb9aecd350729e26ddb5a420fc5c05f459904f31881d6c07702cdd0",
+    "currentStakeChain": "0x9411eb74fb6cd119a6a1202441b2bcb6841226855fa7c0dc81ef7ed0af656767"
+  },
+  {
+    "user": "0xa0Ee7A142d267C1f36714E4a8F75612F20a79720",
+    "isStake": true,
+    "amount": "9310000000000000000",
+    "totalStaked": "147340000000000000000",
+    "totalUserStake": "16240000000000000000",
+    "timestamp": "1735452766",
+    "previousStakeChain": "0x9411eb74fb6cd119a6a1202441b2bcb6841226855fa7c0dc81ef7ed0af656767",
+    "currentStakeChain": "0x1cb99350506a2b3d4e99f420af27886d84c283338341eb60458df9cccc7b81f7"
+  },
+  {
+    "user": "0x1CBd3b2770909D4e10f157cABC84C7264073C9Ec",
+    "isStake": false,
+    "amount": "7540000000000000000",
+    "totalStaked": "139800000000000000000",
+    "totalUserStake": "4090000000000000000",
+    "timestamp": "1735475093",
+    "previousStakeChain": "0x1cb99350506a2b3d4e99f420af27886d84c283338341eb60458df9cccc7b81f7",
+    "currentStakeChain": "0x9e6eed982444de1c953ead6aa19b75639b761675fe68816dea3095d446fc6ca0"
+  },
+  {
+    "user": "0x9965507D1a55bcC2695C58ba16FB37d819B0A4dc",
+    "isStake": false,
+    "amount": "7450000000000000000",
+    "totalStaked": "132350000000000000000",
+    "totalUserStake": "8600000000000000000",
+    "timestamp": "1735530764",
+    "previousStakeChain": "0x9e6eed982444de1c953ead6aa19b75639b761675fe68816dea3095d446fc6ca0",
+    "currentStakeChain": "0x7baae6c45989194f83aa576b16a0d5c828e3b5f4793280c93dc8bae5004b7985"
   },
   {
     "user": "0x15d34AAf54267DB7D7c367839AAf71A00a2C6A65",
     "isStake": true,
-    "amount": "9130000000000000000",
-    "totalStaked": "176160000000000000000",
-    "totalUserStake": "15020000000000000000",
-    "timestamp": "1736816420",
-    "previousStakeChain": "0x523405c6e7b26dcd04663bd79c18b2b054aaa7ec2151bb70a0a416cc1d72ee60",
-    "currentStakeChain": "0x3a39a9b519371601fb6e523a85528ec214e5519b28f73e8966838ba6318703be"
-  },
-  {
-    "user": "0xcd3B766CCDd6AE721141F452C550Ca635964ce71",
-    "isStake": false,
-    "amount": "7550000000000000000",
-    "totalStaked": "168610000000000000000",
-    "totalUserStake": "3740000000000000000",
-    "timestamp": "1737013123",
-    "previousStakeChain": "0x3a39a9b519371601fb6e523a85528ec214e5519b28f73e8966838ba6318703be",
-    "currentStakeChain": "0x60616d2bc737ef021842d28fafa531abe3e9afecadb082d67e98d283aae2b1a7"
-  },
-  {
-    "user": "0x976EA74026E726554dB657fA54763abd0C3a0aa9",
-    "isStake": false,
-    "amount": "6960000000000000000",
-    "totalStaked": "161650000000000000000",
-    "totalUserStake": "21660000000000000000",
-    "timestamp": "1737068839",
-    "previousStakeChain": "0x60616d2bc737ef021842d28fafa531abe3e9afecadb082d67e98d283aae2b1a7",
-    "currentStakeChain": "0xeae2e6c2ff70ae90c0c91d2a7abdd82ce41fd1915d7dac9b4a6469faa9fe99f3"
-  },
-  {
-    "user": "0xdF3e18d64BC6A983f673Ab319CCaE4f1a57C7097",
-    "isStake": true,
-    "amount": "4730000000000000000",
-    "totalStaked": "166380000000000000000",
-    "totalUserStake": "11990000000000000000",
-    "timestamp": "1737135834",
-    "previousStakeChain": "0xeae2e6c2ff70ae90c0c91d2a7abdd82ce41fd1915d7dac9b4a6469faa9fe99f3",
-    "currentStakeChain": "0x96244e006eedd9e625800fcd3267aecc14271d4cd15cc6107328f7d17c05c17d"
-  },
-  {
-    "user": "0x23618e81E3f5cdF7f54C3d65f7FBc0aBf5B21E8f",
-    "isStake": true,
     "amount": "4530000000000000000",
-    "totalStaked": "170910000000000000000",
-    "totalUserStake": "19320000000000000000",
-    "timestamp": "1737197345",
-    "previousStakeChain": "0x96244e006eedd9e625800fcd3267aecc14271d4cd15cc6107328f7d17c05c17d",
-    "currentStakeChain": "0xd9051bb47accb2a5917d3771f5e8216be87d145ea55d7319a599ad2e4b3b4fe0"
+    "totalStaked": "136880000000000000000",
+    "totalUserStake": "8750000000000000000",
+    "timestamp": "1735691386",
+    "previousStakeChain": "0x7baae6c45989194f83aa576b16a0d5c828e3b5f4793280c93dc8bae5004b7985",
+    "currentStakeChain": "0xbe75378c158c1281ba45465d0a9ebee9e5ad8ec0e3821958389411709e2bed78"
   },
   {
-    "user": "0x976EA74026E726554dB657fA54763abd0C3a0aa9",
+    "user": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
     "isStake": false,
-    "amount": "7370000000000000000",
-    "totalStaked": "163540000000000000000",
-    "totalUserStake": "14290000000000000000",
-    "timestamp": "1737249725",
-    "previousStakeChain": "0xd9051bb47accb2a5917d3771f5e8216be87d145ea55d7319a599ad2e4b3b4fe0",
-    "currentStakeChain": "0x30cb46cc39dff3abaa09c152d7bfe166ddf8ea5a404f349a196f8e2a933d1caa"
+    "amount": "1770000000000000000",
+    "totalStaked": "135110000000000000000",
+    "totalUserStake": "6090000000000000000",
+    "timestamp": "1735738088",
+    "previousStakeChain": "0xbe75378c158c1281ba45465d0a9ebee9e5ad8ec0e3821958389411709e2bed78",
+    "currentStakeChain": "0xbebe6f29e976f806b6cab3895edf6f80d2164042f98fe9f1dc411ff2952c72a2"
+  },
+  {
+    "user": "0x8626f6940E2eb28930eFb4CeF49B2d1F2C9C1199",
+    "isStake": false,
+    "amount": "4900000000000000000",
+    "totalStaked": "130210000000000000000",
+    "totalUserStake": "60000000000000000",
+    "timestamp": "1735744753",
+    "previousStakeChain": "0xbebe6f29e976f806b6cab3895edf6f80d2164042f98fe9f1dc411ff2952c72a2",
+    "currentStakeChain": "0xd4a878e862f925b16ffb855076c66ba9f4db7beef6c484fd7086c3460117d3a6"
+  },
+  {
+    "user": "0x90F79bf6EB2c4f870365E785982E1f101E93b906",
+    "isStake": false,
+    "amount": "200000000000000000",
+    "totalStaked": "130010000000000000000",
+    "totalUserStake": "10750000000000000000",
+    "timestamp": "1735758540",
+    "previousStakeChain": "0xd4a878e862f925b16ffb855076c66ba9f4db7beef6c484fd7086c3460117d3a6",
+    "currentStakeChain": "0xb9b4d117f65a1add54c679d7dfeea77165197d999ab7e0f95b7b89785f8b06be"
+  },
+  {
+    "user": "0x15d34AAf54267DB7D7c367839AAf71A00a2C6A65",
+    "isStake": true,
+    "amount": "5590000000000000000",
+    "totalStaked": "135600000000000000000",
+    "totalUserStake": "14340000000000000000",
+    "timestamp": "1735803345",
+    "previousStakeChain": "0xb9b4d117f65a1add54c679d7dfeea77165197d999ab7e0f95b7b89785f8b06be",
+    "currentStakeChain": "0xd31015dea51764ac500a0513743ee3b1202e2a0ab47953ba704f8c11cffc5691"
+  },
+  {
+    "user": "0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC",
+    "isStake": true,
+    "amount": "4940000000000000000",
+    "totalStaked": "140540000000000000000",
+    "totalUserStake": "8660000000000000000",
+    "timestamp": "1735841893",
+    "previousStakeChain": "0xd31015dea51764ac500a0513743ee3b1202e2a0ab47953ba704f8c11cffc5691",
+    "currentStakeChain": "0x02dfab5fe1a226792039bb31cce6035d089141c837475e5db2cc355c5282c37a"
+  },
+  {
+    "user": "0xa0Ee7A142d267C1f36714E4a8F75612F20a79720",
+    "isStake": true,
+    "amount": "8240000000000000000",
+    "totalStaked": "148780000000000000000",
+    "totalUserStake": "24480000000000000000",
+    "timestamp": "1735842414",
+    "previousStakeChain": "0x02dfab5fe1a226792039bb31cce6035d089141c837475e5db2cc355c5282c37a",
+    "currentStakeChain": "0x391167bd96a96803eae8a8dd6a018ae84a2b4ef3d8c27d82d421665c33c9a9db"
+  },
+  {
+    "user": "0x15d34AAf54267DB7D7c367839AAf71A00a2C6A65",
+    "isStake": true,
+    "amount": "5950000000000000000",
+    "totalStaked": "154730000000000000000",
+    "totalUserStake": "20290000000000000000",
+    "timestamp": "1735980293",
+    "previousStakeChain": "0x391167bd96a96803eae8a8dd6a018ae84a2b4ef3d8c27d82d421665c33c9a9db",
+    "currentStakeChain": "0x4523dd1dbe5479898ec04f54e3e462477a948dfaf9feb4efa622b67ffa4c7c4c"
   },
   {
     "user": "0x14dC79964da2C08b23698B3D3cc7Ca32193d9955",
     "isStake": true,
-    "amount": "3110000000000000000",
-    "totalStaked": "166650000000000000000",
+    "amount": "430000000000000000",
+    "totalStaked": "155160000000000000000",
+    "totalUserStake": "8020000000000000000",
+    "timestamp": "1736007414",
+    "previousStakeChain": "0x4523dd1dbe5479898ec04f54e3e462477a948dfaf9feb4efa622b67ffa4c7c4c",
+    "currentStakeChain": "0x94306a0cbc9caa48b661b998bf5d5a22103999d8094fa98fa861e66e0495c636"
+  },
+  {
+    "user": "0x71bE63f3384f5fb98995898A86B02Fb2426c5788",
+    "isStake": false,
+    "amount": "8930000000000000000",
+    "totalStaked": "146230000000000000000",
+    "totalUserStake": "2230000000000000000",
+    "timestamp": "1736135069",
+    "previousStakeChain": "0x94306a0cbc9caa48b661b998bf5d5a22103999d8094fa98fa861e66e0495c636",
+    "currentStakeChain": "0x1d1bf9ad76dd5f33519f77ada7d6da3aa12a4569e857df3efb5ecfb6366c7445"
+  },
+  {
+    "user": "0x2546BcD3c84621e976D8185a91A922aE77ECEc30",
+    "isStake": false,
+    "amount": "5850000000000000000",
+    "totalStaked": "140380000000000000000",
+    "totalUserStake": "16770000000000000000",
+    "timestamp": "1736193986",
+    "previousStakeChain": "0x1d1bf9ad76dd5f33519f77ada7d6da3aa12a4569e857df3efb5ecfb6366c7445",
+    "currentStakeChain": "0x8e037f63ef38759f82185eb388edd686b5084c2d73d3a1a950f15b4c21252a57"
+  },
+  {
+    "user": "0x90F79bf6EB2c4f870365E785982E1f101E93b906",
+    "isStake": false,
+    "amount": "700000000000000000",
+    "totalStaked": "139680000000000000000",
     "totalUserStake": "10050000000000000000",
-    "timestamp": "1737381163",
-    "previousStakeChain": "0x30cb46cc39dff3abaa09c152d7bfe166ddf8ea5a404f349a196f8e2a933d1caa",
-    "currentStakeChain": "0xf5fd73f558920ef41791eef3623eb6cc9d92ec0629a751b0dfc2d85557699153"
+    "timestamp": "1736270336",
+    "previousStakeChain": "0x8e037f63ef38759f82185eb388edd686b5084c2d73d3a1a950f15b4c21252a57",
+    "currentStakeChain": "0x1d2131db3b2fdb7596bc0368abd398d7ecabbcf4e4f5987e30b4faa7c7f65288"
+  },
+  {
+    "user": "0x90F79bf6EB2c4f870365E785982E1f101E93b906",
+    "isStake": false,
+    "amount": "4840000000000000000",
+    "totalStaked": "134840000000000000000",
+    "totalUserStake": "5210000000000000000",
+    "timestamp": "1736336945",
+    "previousStakeChain": "0x1d2131db3b2fdb7596bc0368abd398d7ecabbcf4e4f5987e30b4faa7c7f65288",
+    "currentStakeChain": "0xebd490743f0b5a37fc1e6cb4e173907d1937df690f49874ac609839786b1d1db"
+  },
+  {
+    "user": "0xdF3e18d64BC6A983f673Ab319CCaE4f1a57C7097",
+    "isStake": false,
+    "amount": "3110000000000000000",
+    "totalStaked": "131730000000000000000",
+    "totalUserStake": "9520000000000000000",
+    "timestamp": "1736399686",
+    "previousStakeChain": "0xebd490743f0b5a37fc1e6cb4e173907d1937df690f49874ac609839786b1d1db",
+    "currentStakeChain": "0x7aee2db74ff12e807ac7072d2cac6a0792467e1273d10c8806489948b4063f5b"
+  },
+  {
+    "user": "0xcd3B766CCDd6AE721141F452C550Ca635964ce71",
+    "isStake": true,
+    "amount": "1660000000000000000",
+    "totalStaked": "133390000000000000000",
+    "totalUserStake": "5680000000000000000",
+    "timestamp": "1736461931",
+    "previousStakeChain": "0x7aee2db74ff12e807ac7072d2cac6a0792467e1273d10c8806489948b4063f5b",
+    "currentStakeChain": "0xbeba47c6ab9b28b46139362f40ebce90df7c434980cf029520567ae4117f7dd6"
+  },
+  {
+    "user": "0xcd3B766CCDd6AE721141F452C550Ca635964ce71",
+    "isStake": false,
+    "amount": "5160000000000000000",
+    "totalStaked": "128230000000000000000",
+    "totalUserStake": "520000000000000000",
+    "timestamp": "1736525985",
+    "previousStakeChain": "0xbeba47c6ab9b28b46139362f40ebce90df7c434980cf029520567ae4117f7dd6",
+    "currentStakeChain": "0x707330abb2cf43995be6023c91f1b5f62ab548117ff25d0d5efba930f61563e6"
+  },
+  {
+    "user": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+    "isStake": false,
+    "amount": "3780000000000000000",
+    "totalStaked": "124450000000000000000",
+    "totalUserStake": "2310000000000000000",
+    "timestamp": "1736569949",
+    "previousStakeChain": "0x707330abb2cf43995be6023c91f1b5f62ab548117ff25d0d5efba930f61563e6",
+    "currentStakeChain": "0x4544776206e8e1ee0dd0b59a257e63618302880e5dbd414d2808ec6334f9d0c3"
+  },
+  {
+    "user": "0x2546BcD3c84621e976D8185a91A922aE77ECEc30",
+    "isStake": true,
+    "amount": "6340000000000000000",
+    "totalStaked": "130790000000000000000",
+    "totalUserStake": "23110000000000000000",
+    "timestamp": "1736617753",
+    "previousStakeChain": "0x4544776206e8e1ee0dd0b59a257e63618302880e5dbd414d2808ec6334f9d0c3",
+    "currentStakeChain": "0x2a9041b8f066307153198acbfd84ba5734539ca9cbf45ba858fa470b03436c78"
+  },
+  {
+    "user": "0xdF3e18d64BC6A983f673Ab319CCaE4f1a57C7097",
+    "isStake": false,
+    "amount": "6270000000000000000",
+    "totalStaked": "124520000000000000000",
+    "totalUserStake": "3250000000000000000",
+    "timestamp": "1736689867",
+    "previousStakeChain": "0x2a9041b8f066307153198acbfd84ba5734539ca9cbf45ba858fa470b03436c78",
+    "currentStakeChain": "0xb7ccb7e573b12acdacaa5a4027474bafe422f9c9cad13c461aabedc73a672a16"
+  },
+  {
+    "user": "0x14dC79964da2C08b23698B3D3cc7Ca32193d9955",
+    "isStake": false,
+    "amount": "1280000000000000000",
+    "totalStaked": "123240000000000000000",
+    "totalUserStake": "6740000000000000000",
+    "timestamp": "1736705025",
+    "previousStakeChain": "0xb7ccb7e573b12acdacaa5a4027474bafe422f9c9cad13c461aabedc73a672a16",
+    "currentStakeChain": "0x4b39cae1640da77dea79ea458d3ef608e0c50f1179eeb63ead56fa949e63bb2e"
   }
 ]

@@ -44,6 +44,12 @@ pub fn main() {
         from_reward_event_hash = from_reward_event.unwrap().hash();
     }
 
+    let mut to_user_stake_event = claim.to_user_stake_event;
+    let mut to_user_stake_event_hash = Bytes32::zero();
+    if to_user_stake_event.is_some() {
+        to_user_stake_event_hash = to_user_stake_event.unwrap().hash();
+    }
+
     // Encode the output of the program.
     let pub_vals = PublicValuesStruct {
         user: reward_calculator.user.into(),
@@ -53,7 +59,7 @@ pub fn main() {
         from_stake_event_hash: from_stake_event_hash.into(),
         to_stake_event_hash: claim.to_stake_event.hash().into(),
         from_user_stake_event_hash: from_user_stake_event_hash.into(),
-        to_user_stake_event_hash: claim.to_user_stake_event.hash().into(),
+        to_user_stake_event_hash: to_user_stake_event_hash.into(),
         updated_to_reward_event_hash: Bytes32::zero().into(),
     };
 
