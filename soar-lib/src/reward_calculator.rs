@@ -1,3 +1,4 @@
+use alloy_primitives::Bytes;
 use serde::Deserialize;
 
 use crate::reward::RewardChainExtendedEvent;
@@ -58,8 +59,7 @@ impl RewardCalculator {
         let mut reward_event_index = 0; // Reward Index
         let mut total_user_reward = U256::zero();
         let precision = U256::from("1000000000000000000");
-        println!("Claim: {:?}", self.claim);
-        println!("                     ");
+        let zero = U256::zero();
         while reward_event_index < self.reward_events.len() {
             current_timestamp = self.reward_events[reward_event_index].timestamp;
             while stake_event_index < self.stake_events.len()
@@ -68,31 +68,33 @@ impl RewardCalculator {
                 if self.stake_events[stake_event_index].user == self.user {
                     total_user_stake = self.stake_events[stake_event_index].total_user_stake;
                 }
-                println!(
-                    "Timestamp: {:?}, Index: ({:?}, {:?}), Stake event: {:?}, Total User Stake: {:?}, Total Stake: {:?}",
-                    current_timestamp, reward_event_index, stake_event_index, self.stake_events[stake_event_index], total_user_stake, total_stake
-                );
-                println!("                     ");
                 total_stake = self.stake_events[stake_event_index].total_staked;
                 stake_event_index += 1;
                 // TODO: Verify stake event hashes
+                if (stake_event_index <= self.stake_events.len() && stake_event_index > 1) {
+                    assert_eq!(
+                        self.stake_events[stake_event_index - 2].current_event_hash,
+                        self.stake_events[stake_event_index - 1].previous_event_hash
+                    );
+                }
+                if (stake_event_index == 1) {
+                    let mut first_stake_event_hash = Bytes32::zero();
+                    if self.claim.from_stake_event.is_some() {
+                        let mut e = self.claim.from_stake_event.clone().unwrap();
+                        first_stake_event_hash = e.hash();
+                    }
+                    assert_eq!(
+                        first_stake_event_hash,
+                        self.stake_events[0].previous_event_hash
+                    );
+                }
             }
             let reward_event = &self.reward_events[reward_event_index];
-            println!(
-                "Outside: Timestamp: {:?}, Index: ({:?}, {:?}), Reward: {:?}, Total User Stake: {:?}, Total Stake: {:?}",
-                current_timestamp, reward_event_index, stake_event_index, reward_event, total_user_stake, total_stake
-            );
-            println!("                     ");
-            if total_stake != U256::zero() {
+            if total_stake != zero {
                 // Calculate the reward for the user at this point.
                 let user_reward =
                     (total_user_stake * reward_event.amount * precision) / total_stake;
                 total_user_reward += user_reward;
-                println!(
-                    "Reward: {:?}, Total User Stake: {:?}, Total Stake: {:?}, User Reward: {:?}, Total User Reward: {:?}",
-                    reward_event, total_user_stake, total_stake, user_reward, total_user_reward
-                );
-                println!("                     ");
             }
             reward_event_index += 1;
         }
